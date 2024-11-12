@@ -3,10 +3,12 @@ import requests
 
 class HtmlContentExtractor:
     
+    URL = "https://plan.ue.wroc.pl/l_pozycjaplanu1.php?se=56&gr=135/1"
+    
     @staticmethod
-    def extract(url: str):
+    def extract():
         
-        response = requests.get(url)
+        response = requests.get(HtmlContentExtractor.URL)
         
         if response.status_code == 200:
             html_content = response.text
