@@ -4,9 +4,7 @@ from helpers.time_converter import TimeConverter
 from models.lesson import Lesson
 from models.schedule import Schedule
 
-
 class ScheduleContentTransformer:
-    
     EIGHT_AM_HOUR = 480
     SEVEN_PM_HOUR = 1140
 
@@ -19,7 +17,6 @@ class ScheduleContentTransformer:
         "06 IwB",
         "07 IwB",
     ]
-
     
     @staticmethod
     def transform(rows: list):

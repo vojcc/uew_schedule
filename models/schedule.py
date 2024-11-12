@@ -1,7 +1,6 @@
 from .group import Group
 
 class Schedule:
-    
     def __init__(self):
         self.groups = []
 

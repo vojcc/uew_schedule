@@ -1,7 +1,6 @@
 from .day import Day
 
 class Group:
-    
     def __init__(self, name: str):
         self.name = name
         self.days = []

@@ -1,5 +1,4 @@
 class Lesson:
-    
     def __init__(self, name: str, start_hour: str, end_hour: str, duration: int):
         self.name = name
         self.start_hour = start_hour

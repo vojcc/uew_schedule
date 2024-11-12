@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup
 import requests
 
 class HtmlContentExtractor:
-    
     URL = "https://plan.ue.wroc.pl/l_pozycjaplanu1.php?se=56&gr=135/1"
     
     @staticmethod
