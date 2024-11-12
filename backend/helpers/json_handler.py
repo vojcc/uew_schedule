@@ -4,7 +4,7 @@ from models.schedule import Schedule
 class JsonHandler:
     @staticmethod
     def load(schedule: Schedule):
-        with open("schedule.json", "w", encoding="utf-8") as json_file:
+        with open("backend/schedule.json", "w", encoding="utf-8") as json_file:
             json.dump(
                 schedule.to_dictionary(), 
                 json_file, 
