@@ -1,4 +1,4 @@
-from .day import Day
+from backend.models.day import Day
 
 class Group:
     def __init__(self, name: str):

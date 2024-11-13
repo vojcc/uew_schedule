@@ -1,4 +1,4 @@
-from .lesson import Lesson
+from backend.models.lesson import Lesson
 
 class Day:
     def __init__(self, date: str):

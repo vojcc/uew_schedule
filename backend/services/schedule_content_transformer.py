@@ -1,8 +1,8 @@
-from models.day import Day
-from models.group import Group
-from helpers.time_converter import TimeConverter
-from models.lesson import Lesson
-from models.schedule import Schedule
+from backend.models.day import Day
+from backend.models.group import Group
+from backend.models.lesson import Lesson
+from backend.models.schedule import Schedule
+from backend.helpers.time_converter import TimeConverter
 
 class ScheduleContentTransformer:
     EIGHT_AM_HOUR = 480
