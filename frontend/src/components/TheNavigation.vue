@@ -15,7 +15,7 @@ const semester = computed(() => userSettingsStore.getSemester() ? `Semestr ${use
 
 <template>
   <nav class="bg-gray-100">
-    <div class="flex items-center justify-between px-4 sm:px-5 py-1 sm:py-2">
+    <div class="flex items-center justify-between px-4 sm:px-5 py-2 sm:py-3">
 
       <div class="flex items-center">
         <div class="flex items-center gap-5 font-medium">

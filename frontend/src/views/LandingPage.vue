@@ -167,27 +167,30 @@ watch(selectedDay, () => {
           </div>
 
           <div v-if="selectedDay">
-
-            <div class="flex" v-for="(lesson, index) in selectedDay.lessons" :key="index">
-              <div class="flex flex-col my-3 gap-1 w-full" v-if="lesson.name !== '-'">
-                <div class="w-full flex gap-3 items-center">
-                  <span class="text-xs font-medium text-gray-700">{{ lesson.start_hour }}</span>
-                  <hr class="flex-grow border-t border-gray-200"/>
-                </div>
-
-                <div class="flex justify-end">
-                  <div class="bg-blue-50 border border-blue-600 rounded-xl w-11/12 p-4 pb-[90px]">
-                    <span class="font-bold">{{ lesson.name }}</span>
+            <div v-if="selectedDay.lessons">
+              <div class="flex" v-for="(lesson, index) in selectedDay.lessons" :key="index">
+                <div class="flex flex-col my-3 gap-1 w-full" v-if="lesson.name !== '-'">
+                  <div class="w-full flex gap-3 items-center">
+                    <span class="text-xs font-medium">{{ lesson.start_hour }}</span>
+                    <hr class="flex-grow border-t border-gray-200"/>
                   </div>
-                </div>
 
-                <div class="w-full flex gap-3 items-center">
-                  <span class="text-xs font-medium text-gray-700">{{ lesson.end_hour }}</span>
-                  <hr class="flex-grow border-t border-gray-200"/>
+                  <div class="flex justify-end">
+                    <div class="bg-blue-100 text-uewblue-dark border border-uewblue-dark rounded-xl w-11/12 p-4 pb-[90px]">
+                      <span class="font-bold">{{ lesson.name }}</span>
+                    </div>
+                  </div>
+
+                  <div class="w-full flex gap-3 items-center">
+                    <span class="text-xs font-medium">{{ lesson.end_hour }}</span>
+                    <hr class="flex-grow border-t border-gray-200"/>
+                  </div>
                 </div>
               </div>
             </div>
-
+            <div v-else>
+              Brak lekcji, zajebiście.
+            </div>
           </div>
 
         </div>
