@@ -199,6 +199,7 @@ function selectDay(day) {
             Wybierz kierunek, grupę i semestr, aby przejść do planu.
           </p>
         </div>
+
       </section>
     </div>
   </main>
