@@ -11,6 +11,7 @@ export default defineConfig({
     vueDevTools(),
   ],
   resolve: {
+    base: '/uew_schedule/',
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
