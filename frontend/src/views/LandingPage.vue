@@ -53,6 +53,16 @@ function refreshScheduleForActualSettings() {
   selectedGroupDays.value = selectedGroup?.days
 }
 
+const selectedDay = ref()
+
+function selectDay(day) {
+  selectedDay.value = day
+}
+
+watch(selectedDay, () => {
+  console.log(selectedDay.value.date)
+})
+
 </script>
 <template>
   <main>
@@ -76,60 +86,67 @@ function refreshScheduleForActualSettings() {
         </button>
       </div>
 
-
-      <div v-if="showUserSettingsForm === true" class="flex flex-col">
-        <div class="w-full">
-          <form class="flex flex-col gap-6">
-            <div class="flex flex-col">
-              <label class="text-sm font-medium">Kierunek</label>
-              <input readonly disabled class="disabled:bg-white p-2 border border-gray-500 rounded-lg" type="text"
-                     v-model="subject">
-            </div>
-
-            <div class="flex flex-col">
-              <label class="text-sm font-medium">Grupa</label>
-              <select v-model="group" class="bg-white p-2 border border-gray-500 rounded-lg" type="text">
-                <option v-for="group in groups" :key="group.name">
-                  {{ group.name }}
-                </option>
-              </select>
-            </div>
-
-            <div class="flex gap-6 items-center">
-              <div @click="chooseSemester('zimowy')"
-                   class="flex items-center gap-1 cursor-pointer">
+      <transition
+        name="slide-horizontal"
+        mode="out-in"
+      >
+        <div
+          v-if="showUserSettingsForm"
+          class="flex flex-col"
+          key="settings-form"
+        >
+          <div class="w-full">
+            <form class="flex flex-col gap-6">
+              <div class="flex flex-col">
+                <label class="text-sm font-medium">Kierunek</label>
                 <input
-                  type="radio"
-                  class="size-4 accent-uewblue cursor-pointer"
-                  value="zimowy"
-                  v-model="semester"
-                />
-                <label class="cursor-pointer">Semestr zimowy</label>
-              </div>
-
-              <div @click="chooseSemester('letni')"
-                   class="flex items-center gap-1 cursor-pointer">
-                <input
-                  type="radio"
                   readonly
                   disabled
-                  class="size-4 accent-uewblue cursor-pointer"
-                  value="letni"
-                  v-model="semester"
+                  class="disabled:bg-white p-2 border border-gray-500 rounded-lg"
+                  type="text"
+                  v-model="subject"
                 />
-                <label class="cursor-pointer text-gray-400">Semestr letni</label>
               </div>
-            </div>
-          </form>
 
-          <!--          <div class="mt-6 w-full" v-if="subject && group && semester">-->
-          <!--            <button @click="refreshScheduleForActualSettings()"-->
-          <!--                    class="bg-uewblue w-full text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-800">-->
-          <!--              Pokaż plan-->
-          <!--            </button>-->
-          <!--          </div>-->
+              <div class="flex flex-col">
+                <label class="text-sm font-medium">Grupa</label>
+                <select
+                  v-model="group"
+                  class="bg-white p-2 border border-gray-500 rounded-lg"
+                >
+                  <option v-for="group in groups" :key="group.name">
+                    {{ group.name }}
+                  </option>
+                </select>
+              </div>
+
+              <div class="flex gap-6 items-center">
+                <div @click="chooseSemester('zimowy')" class="flex items-center gap-1 cursor-pointer">
+                  <input
+                    type="radio"
+                    class="size-4 accent-uewblue cursor-pointer"
+                    value="zimowy"
+                    v-model="semester"
+                  />
+                  <label class="cursor-pointer">Semestr zimowy</label>
+                </div>
+
+                <div @click="chooseSemester('letni')" class="flex items-center gap-1 cursor-pointer">
+                  <input
+                    type="radio"
+                    readonly
+                    disabled
+                    class="size-4 accent-uewblue cursor-pointer"
+                    value="letni"
+                    v-model="semester"
+                  />
+                  <label class="cursor-pointer text-gray-400">Semestr letni</label>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
-      </div>
+      </transition>
 
       <section>
         <div v-if="selectedGroupDays">
@@ -137,19 +154,42 @@ function refreshScheduleForActualSettings() {
           <p v-if="group" class="font-bold text-xl">
             Grupa {{ group }}
           </p>
-          <div v-for="day in selectedGroupDays" :key="day.date">
-            <br>
-            <span class="font-medium">
-             {{ day.date }}
-          </span>
 
-            <div v-for="(lesson, index) in day.lessons" :key="index">
-              <div v-if="lesson.name !== '-'">
-                {{ lesson.name }}:
-                {{ lesson.start_hour }} - {{ lesson.end_hour }}
+          <div class="flex flex-row overflow-x-scroll gap-2 my-2">
+            <button @click="selectDay(day)" class="px-4 py-2 mb-2 border rounded-2xl"
+                    v-for="day in selectedGroupDays" :key="day.date"
+                    :class="selectedDay && selectedDay.date === day.date ? 'bg-uewblue text-white ' : ''"
+            >
+              <span class="font-medium">
+               {{ day.date }}
+              </span>
+            </button>
+          </div>
+
+          <div v-if="selectedDay">
+
+            <div class="flex" v-for="(lesson, index) in selectedDay.lessons" :key="index">
+              <div class="flex flex-col my-3 gap-1 w-full" v-if="lesson.name !== '-'">
+                <div class="w-full flex gap-3 items-center">
+                  <span class="text-xs font-medium text-gray-700">{{ lesson.start_hour }}</span>
+                  <hr class="flex-grow border-t border-gray-200"/>
+                </div>
+
+                <div class="flex justify-end">
+                  <div class="bg-blue-50 border border-blue-600 rounded-xl w-11/12 p-4 pb-[90px]">
+                    <span class="font-bold">{{ lesson.name }}</span>
+                  </div>
+                </div>
+
+                <div class="w-full flex gap-3 items-center">
+                  <span class="text-xs font-medium text-gray-700">{{ lesson.end_hour }}</span>
+                  <hr class="flex-grow border-t border-gray-200"/>
+                </div>
               </div>
             </div>
+
           </div>
+
         </div>
         <div class="mt-3" v-else>
           <p class="text-sm text-pretty text-gray-600">
@@ -160,3 +200,20 @@ function refreshScheduleForActualSettings() {
     </div>
   </main>
 </template>
+
+<style scoped>
+.slide-horizontal-enter-active,
+.slide-horizontal-leave-active {
+  transition: all 0.2s ease;
+}
+
+.slide-horizontal-enter-from {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.slide-horizontal-leave-to {
+  transform: translateX(100%);
+  opacity: 0;
+}
+</style>
