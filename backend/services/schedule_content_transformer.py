@@ -4,6 +4,8 @@ from backend.models.lesson import Lesson
 from backend.models.schedule import Schedule
 from backend.helpers.time_converter import TimeConverter
 
+import re
+
 class ScheduleContentTransformer:
     EIGHT_AM_HOUR = 480
     SEVEN_PM_HOUR = 1140
@@ -17,7 +19,18 @@ class ScheduleContentTransformer:
         "06 IwB",
         "07 IwB",
     ]
-    
+
+    @staticmethod
+    def extract_lesson_and_teacher(text):
+        match = re.match(r'(.+?) \((.+)\)', text)
+
+        if match:
+            lesson_name = match.group(1)
+            teacher = match.group(2)
+            return lesson_name, teacher
+        else:
+            return '', ''
+
     @staticmethod
     def transform(rows: list):
         rows_count = 0
@@ -62,13 +75,22 @@ class ScheduleContentTransformer:
             for cell in cells[start_iteration_index:]:
                 if cell.text == '\xa0\xa0\xa0':
                     duration = 15
-
                 else:
                     duration = int(cell.attrs['colspan']) * 15
-                    lesson_name = cell.text.strip()
+                    lesson_name_abbr = cell.text.strip()
+                    teacher_name = ''
+
+                    if 'title' in cell.next.attrs:
+                        lesson_and_teacher = cell.next.attrs['title']
+                        lesson_name, teacher_name = ScheduleContentTransformer.extract_lesson_and_teacher(lesson_and_teacher)
+                    else:
+                        lesson_name = lesson_name_abbr
+                        lesson_name_abbr = ''
 
                     lesson = Lesson(
                         name = lesson_name,
+                        name_abbr = lesson_name_abbr,
+                        teacher_name = teacher_name,
                         start_hour = TimeConverter.minutes_to_hours(hour_in_minutes),
                         end_hour = TimeConverter.minutes_to_hours(hour_in_minutes + duration),
                         duration = duration,

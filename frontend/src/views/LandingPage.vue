@@ -39,6 +39,8 @@ onMounted(() => {
 watch(group, () => {
   userSettingsStore.setGroup(group)
   refreshScheduleForActualSettings()
+
+  selectedDay.value = ''
 })
 
 function chooseSemester(semesterName) {
@@ -59,9 +61,9 @@ function selectDay(day) {
   selectedDay.value = day
 }
 
-watch(selectedDay, () => {
-  console.log(selectedDay.value.date)
-})
+// watch(selectedDay, () => {
+//   refreshScheduleForActualSettings()
+// })
 
 </script>
 <template>
@@ -167,7 +169,7 @@ watch(selectedDay, () => {
           </div>
 
 
-          <div v-if="selectedDay?.lessons.length">
+          <div v-if="selectedDay?.lessons?.length">
             <div class="flex" v-for="(lesson, index) in selectedDay.lessons" :key="index">
               <div class="flex flex-col my-3 gap-1 w-full" v-if="lesson.name !== '-'">
                 <div class="w-full flex gap-3 items-center">
@@ -176,9 +178,11 @@ watch(selectedDay, () => {
                 </div>
 
                 <div class="flex justify-end">
-                  <div
-                    class="bg-blue-100 text-uewblue-dark border border-uewblue-dark rounded-xl w-11/12 p-4 pb-[90px]">
+                  <div class="flex flex-col border-l-[5px] border-dotted border-blue-800 ml-10 w-full px-4">
                     <span class="font-bold">{{ lesson.name }}</span>
+                    <span class="text-xs">{{ lesson.name_abbr }}</span>
+
+                    <span class="text-gray-600 text-xs">{{ lesson.teacher_name }}</span>
                   </div>
                 </div>
 
@@ -189,15 +193,16 @@ watch(selectedDay, () => {
               </div>
             </div>
           </div>
-          <div class="mt-8 flex gap-1 justify-center items-center" v-else>
+          <div class="mt-12 flex gap-1 justify-center items-center" v-else>
             <img src="../assets/beer.png" alt="">
-            <p class="text-sm font-bold">
+            <p class="text-sm font-medium">
               Brak zajęć, idź na piwo.
             </p>
           </div>
         </div>
-        <div class="mt-3" v-else>
-          <p class="text-sm text-pretty text-gray-600">
+        <div class="mt-12 flex gap-4 justify-center items-center" v-else>
+          <img class="size-12" src="../assets/calendar.png" alt="">
+          <p class="text-sm font-medium">
             Wybierz kierunek, grupę i semestr, aby przejść do planu.
           </p>
         </div>
@@ -205,7 +210,6 @@ watch(selectedDay, () => {
     </div>
   </main>
 </template>
-
 
 
 <style scoped>
