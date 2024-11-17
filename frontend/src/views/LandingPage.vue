@@ -166,33 +166,35 @@ watch(selectedDay, () => {
             </button>
           </div>
 
-          <div v-if="selectedDay">
-            <div v-if="selectedDay.lessons">
-              <div class="flex" v-for="(lesson, index) in selectedDay.lessons" :key="index">
-                <div class="flex flex-col my-3 gap-1 w-full" v-if="lesson.name !== '-'">
-                  <div class="w-full flex gap-3 items-center">
-                    <span class="text-xs font-medium">{{ lesson.start_hour }}</span>
-                    <hr class="flex-grow border-t border-gray-200"/>
-                  </div>
 
-                  <div class="flex justify-end">
-                    <div class="bg-blue-100 text-uewblue-dark border border-uewblue-dark rounded-xl w-11/12 p-4 pb-[90px]">
-                      <span class="font-bold">{{ lesson.name }}</span>
-                    </div>
-                  </div>
+          <div v-if="selectedDay?.lessons.length">
+            <div class="flex" v-for="(lesson, index) in selectedDay.lessons" :key="index">
+              <div class="flex flex-col my-3 gap-1 w-full" v-if="lesson.name !== '-'">
+                <div class="w-full flex gap-3 items-center">
+                  <span class="text-xs font-medium">{{ lesson.start_hour }}</span>
+                  <hr class="flex-grow border-t border-gray-200"/>
+                </div>
 
-                  <div class="w-full flex gap-3 items-center">
-                    <span class="text-xs font-medium">{{ lesson.end_hour }}</span>
-                    <hr class="flex-grow border-t border-gray-200"/>
+                <div class="flex justify-end">
+                  <div
+                    class="bg-blue-100 text-uewblue-dark border border-uewblue-dark rounded-xl w-11/12 p-4 pb-[90px]">
+                    <span class="font-bold">{{ lesson.name }}</span>
                   </div>
+                </div>
+
+                <div class="w-full flex gap-3 items-center">
+                  <span class="text-xs font-medium">{{ lesson.end_hour }}</span>
+                  <hr class="flex-grow border-t border-gray-200"/>
                 </div>
               </div>
             </div>
-            <div v-else>
-              Brak lekcji, zajebiście.
-            </div>
           </div>
-
+          <div class="mt-8 flex gap-1 justify-center items-center" v-else>
+            <img src="../assets/beer.png" alt="">
+            <p class="text-sm font-bold">
+              Brak zajęć, idź na piwo.
+            </p>
+          </div>
         </div>
         <div class="mt-3" v-else>
           <p class="text-sm text-pretty text-gray-600">
@@ -203,6 +205,8 @@ watch(selectedDay, () => {
     </div>
   </main>
 </template>
+
+
 
 <style scoped>
 .slide-horizontal-enter-active,

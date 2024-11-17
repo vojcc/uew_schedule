@@ -62,19 +62,19 @@ class ScheduleContentTransformer:
             for cell in cells[start_iteration_index:]:
                 if cell.text == '\xa0\xa0\xa0':
                     duration = 15
-                    lesson_name = '-'
+
                 else:
                     duration = int(cell.attrs['colspan']) * 15
                     lesson_name = cell.text.strip()
 
-                lesson = Lesson(
-                    name = lesson_name,
-                    start_hour = TimeConverter.minutes_to_hours(hour_in_minutes),
-                    end_hour = TimeConverter.minutes_to_hours(hour_in_minutes + duration),
-                    duration = duration,
-                )
+                    lesson = Lesson(
+                        name = lesson_name,
+                        start_hour = TimeConverter.minutes_to_hours(hour_in_minutes),
+                        end_hour = TimeConverter.minutes_to_hours(hour_in_minutes + duration),
+                        duration = duration,
+                    )
 
-                day.add_lesson(lesson)
+                    day.add_lesson(lesson)
                 hour_in_minutes += duration
 
             group.add_day(day)
