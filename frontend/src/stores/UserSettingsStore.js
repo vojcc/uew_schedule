@@ -1,6 +1,6 @@
-import {defineStore} from "pinia";
+import { defineStore } from 'pinia'
 
-export const useUserSettingsStore = defineStore("UserSettingsStore", {
+export const useUserSettingsStore = defineStore('UserSettingsStore', {
   state: () => ({
     subject: 'Informatyka w Biznesie',
     group: '',
@@ -12,7 +12,7 @@ export const useUserSettingsStore = defineStore("UserSettingsStore", {
     //   localStorage.setItem('subject', subject.value)
     // },
     getSubject() {
-      return this.subject || localStorage.getItem('subject') || '';
+      return this.subject || localStorage.getItem('subject') || ''
     },
 
     setGroup(group) {
@@ -20,7 +20,7 @@ export const useUserSettingsStore = defineStore("UserSettingsStore", {
       localStorage.setItem('group', group.value)
     },
     getGroup() {
-      return this.group || localStorage.getItem('group') || '';
+      return this.group || localStorage.getItem('group') || ''
     },
 
     // setSemester(semester) {
@@ -28,7 +28,7 @@ export const useUserSettingsStore = defineStore("UserSettingsStore", {
     //   localStorage.setItem('semester', semester.value)
     // },
     getSemester() {
-      return this.semester || localStorage.getItem('semester') || '';
+      return this.semester || localStorage.getItem('semester') || ''
     },
   },
-});
+})
