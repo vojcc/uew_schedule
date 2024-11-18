@@ -6,13 +6,21 @@ import {
   AdjustmentsHorizontalIcon,
   FireIcon,
   CalendarDaysIcon,
+  ChevronDownIcon,
+  ChevronUpIcon
 } from '@heroicons/vue/24/outline/index.js'
 import { onClickOutside } from '@vueuse/core'
 const groupList = ref(null)
 
 onClickOutside(groupList, () => {
-  toggleShowGroupList()
+  showGroupList.value = false
 })
+
+const showGroupList = ref(false)
+
+function toggleShowGroupList() {
+  showGroupList.value = !showGroupList.value
+}
 
 const subject = ref('')
 const group = ref('')
@@ -67,12 +75,6 @@ const selectedDay = ref()
 function selectDay(day) {
   selectedDay.value = day
 }
-
-const showGroupList = ref(false)
-
-function toggleShowGroupList() {
-  showGroupList.value = !showGroupList.value
-}
 </script>
 <template>
   <main>
@@ -96,10 +98,10 @@ function toggleShowGroupList() {
           <div class="w-full">
             <form class="flex flex-col gap-6">
               <div class="flex flex-col">
-                <label class="text-sm font-medium text-gray-800">Kierunek</label>
+                <label class="text-sm font-bold text-gray-800">Kierunek</label>
                 <input
                   readonly
-                  class="disabled:bg-white p-2 text-sm text-gray-800 rounded-lg border border-gray-800 ring-inset focus:outline-none focus:ring-uewblue focus:ring-1"
+                  class="disabled:bg-white px-2 py-2.5 text-sm text-gray-800 rounded-lg border border-gray-800 ring-inset focus:outline-none focus:ring-uewblue focus:ring-1"
                   type="text"
                   v-model="subject"
                 />
@@ -107,21 +109,20 @@ function toggleShowGroupList() {
 
               <div>
                 <label class="block text-sm font-bold text-gray-900">Grupa</label>
-                <div class="relative">
+                <div ref="groupList" class="relative">
                   <button
                     @click="toggleShowGroupList()"
                     type="button"
                     class="relative w-full cursor-default rounded-lg p-2 text-left text-gray-800 border border-gray-800 ring-inset focus:outline-none focus:ring-uewblue focus:ring-1"
                   >
                     <span class="text-sm">{{ group }}</span>
-                    <span
-                      class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2"
-                    >v</span
-                    >
+                    <span class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
+                      <ChevronUpIcon v-if="showGroupList" class="size-4 text-gray-800" />
+                      <ChevronDownIcon v-else class="size-4 text-gray-800" />
+                    </span>
                   </button>
 
                   <ul
-                    ref="groupList"
                     v-if="showGroupList"
                     class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-lg bg-white py-1 shadow-lg ring-1 ring-black/5 focus:outline-none text-sm"
                   >
@@ -148,7 +149,7 @@ function toggleShowGroupList() {
                     value="zimowy"
                     v-model="semester"
                   />
-                  <label class="cursor-pointer text-gray-800">Semestr zimowy</label>
+                  <label class="cursor-pointer text-sm text-gray-800">Semestr zimowy</label>
                 </div>
 
                 <div @click="chooseSemester('letni')" class="flex items-center gap-1">
@@ -160,7 +161,7 @@ function toggleShowGroupList() {
                     value="letni"
                     v-model="semester"
                   />
-                  <label class="text-gray-400">Semestr letni</label>
+                  <label class="text-gray-400 text-sm">Semestr letni</label>
                 </div>
               </div>
             </form>
