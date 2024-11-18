@@ -7,26 +7,18 @@ export const useUserSettingsStore = defineStore('UserSettingsStore', {
     semester: 'zimowy',
   }),
   actions: {
-    // setSubject(subject) {
-    //   this.subject = subject
-    //   localStorage.setItem('subject', subject.value)
-    // },
     getSubject() {
       return this.subject || localStorage.getItem('subject') || ''
     },
 
     setGroup(group) {
       this.group = group
-      localStorage.setItem('group', group.value)
+      localStorage.setItem('group', group)
     },
     getGroup() {
       return this.group || localStorage.getItem('group') || ''
     },
 
-    // setSemester(semester) {
-    //   this.semester = semester
-    //   localStorage.setItem('semester', semester.value)
-    // },
     getSemester() {
       return this.semester || localStorage.getItem('semester') || ''
     },
