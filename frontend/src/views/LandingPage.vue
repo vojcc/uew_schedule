@@ -69,17 +69,17 @@ function selectDay(day) {
   <main>
     <div class="p-4 sm:p-5">
       <div class="flex flex-col item-center justify-center gap-1">
-        <h1 class="w-fit text-3xl sm:text-4xl font-bold">Plan zajęć</h1>
-        <h2 class="sm:text-lg font-medium text-balance">Uniwersytetu Ekonomicznego we Wrocławiu</h2>
+        <h1 class="w-fit text-3xl sm:text-4xl font-bold text-gray-800">Plan zajęć</h1>
+        <h2 class="sm:text-lg font-medium text-balance text-gray-800">Uniwersytetu Ekonomicznego we Wrocławiu</h2>
       </div>
 
       <div class="w-full flex justify-end">
         <button
           @click="toggleSettingsForm"
-          class="flex mt-4 items-center gap-1 border-b-2 border-transparent hover:border-uewyellow"
+          class="flex mt-4 items-center gap-1 hover:drop-shadow"
         >
           <AdjustmentsHorizontalIcon class="size-5" />
-          <span class="text-xs">
+          <span class="text-xs text-gray-800">
             {{ showUserSettingsForm === true ? 'Schowaj filtry' : 'Zmień filtry' }}
           </span>
         </button>
@@ -90,19 +90,18 @@ function selectDay(day) {
           <div class="w-full">
             <form class="flex flex-col gap-6">
               <div class="flex flex-col">
-                <label class="text-sm font-medium">Kierunek</label>
+                <label class="text-sm font-medium text-gray-800">Kierunek</label>
                 <input
                   readonly
-                  disabled
-                  class="disabled:bg-white p-2 border border-gray-500 rounded-lg"
+                  class="disabled:bg-white p-2 border text-gray-800 border-gray-500 rounded-lg"
                   type="text"
                   v-model="subject"
                 />
               </div>
 
               <div class="flex flex-col">
-                <label class="text-sm font-medium">Grupa</label>
-                <select v-model="group" class="bg-white p-2 border border-gray-500 rounded-lg">
+                <label class="text-sm font-medium text-gray-800">Grupa</label>
+                <select v-model="group" class="bg-white p-2 border text-gray-800 border-gray-500 rounded-lg">
                   <option v-for="group in groups" :key="group.name">
                     {{ group.name }}
                   </option>
@@ -112,7 +111,7 @@ function selectDay(day) {
               <div class="flex gap-6 items-center">
                 <div
                   @click="chooseSemester('zimowy')"
-                  class="flex items-center gap-1 cursor-pointer"
+                  class="flex items-center gap-1 cursor-pointer hover:drop-shadow"
                 >
                   <input
                     type="radio"
@@ -120,22 +119,22 @@ function selectDay(day) {
                     value="zimowy"
                     v-model="semester"
                   />
-                  <label class="cursor-pointer">Semestr zimowy</label>
+                  <label class="cursor-pointer text-gray-800">Semestr zimowy</label>
                 </div>
 
                 <div
                   @click="chooseSemester('letni')"
-                  class="flex items-center gap-1 cursor-pointer"
+                  class="flex items-center gap-1"
                 >
                   <input
                     type="radio"
                     readonly
                     disabled
-                    class="size-4 accent-uewblue cursor-pointer"
+                    class="size-4 accent-uewblue"
                     value="letni"
                     v-model="semester"
                   />
-                  <label class="cursor-pointer text-gray-400">Semestr letni</label>
+                  <label class="text-gray-400">Semestr letni</label>
                 </div>
               </div>
             </form>
@@ -145,8 +144,8 @@ function selectDay(day) {
 
       <section>
         <div v-if="selectedGroupDays">
-          <hr class="h-[2px] mt-3 mb-2 bg-uewyellow border-0" />
-          <p v-if="group" class="font-bold text-xl">Grupa {{ group }}</p>
+          <hr class="h-[2px] my-4 bg-uewyellow border-0" />
+          <p v-if="group" class="font-bold text-xl text-gray-800">Grupa {{ group }}</p>
 
           <div class="flex flex-row overflow-x-scroll gap-2 my-2">
             <button
@@ -154,7 +153,7 @@ function selectDay(day) {
               class="px-4 py-2 mb-2 border rounded-2xl"
               v-for="day in selectedGroupDays"
               :key="day.date"
-              :class="selectedDay && selectedDay.date === day.date ? 'bg-uewblue text-white ' : ''"
+              :class="selectedDay && selectedDay.date === day.date ? 'bg-uewblue text-white ' : 'text-gray-800 hover:bg-gray-50'"
             >
               <span class="font-medium">
                 {{ day.date }}
@@ -166,7 +165,7 @@ function selectDay(day) {
             <div class="flex" v-for="(lesson, index) in selectedDay.lessons" :key="index">
               <div class="flex flex-col my-3 gap-1 w-full" v-if="lesson.name !== '-'">
                 <div class="w-full flex gap-3 items-center">
-                  <span class="text-xs font-medium">{{ lesson.start_hour }}</span>
+                  <span class="text-xs font-medium text-gray-800">{{ lesson.start_hour }}</span>
                   <hr class="flex-grow border-t border-gray-200" />
                 </div>
 
@@ -174,32 +173,30 @@ function selectDay(day) {
                   <div
                     class="flex flex-col border-l-[5px] border-dotted border-blue-800 ml-10 w-full px-4"
                   >
-                    <span class="font-bold">{{ lesson.name }}</span>
-                    <span class="text-xs">{{ lesson.name_abbr }}</span>
-
+                    <span class="font-bold text-gray-800">{{ lesson.name }}</span>
+                    <span class="text-xs text-gray-600">{{ lesson.name_abbr }}</span>
                     <span class="text-gray-600 text-xs">{{ lesson.teacher_name }}</span>
                   </div>
                 </div>
 
                 <div class="w-full flex gap-3 items-center">
-                  <span class="text-xs font-medium">{{ lesson.end_hour }}</span>
+                  <span class="text-xs font-medium text-gray-800">{{ lesson.end_hour }}</span>
                   <hr class="flex-grow border-t border-gray-200" />
                 </div>
               </div>
             </div>
           </div>
           <div class="mt-12 flex gap-1 justify-center items-center" v-else>
-            <img src="../assets/beer.png" alt="" />
-            <p class="text-sm font-medium">Brak zajęć, idź na piwo.</p>
+            <img class="size-14" src="../assets/beer.png" alt="" />
+            <p class="text-sm font-bold text-gray-800">Brak zajęć, idź na piwo</p>
           </div>
         </div>
         <div class="mt-12 flex gap-4 justify-center items-center" v-else>
           <img class="size-12" src="../assets/calendar.png" alt="" />
-          <p class="text-sm font-medium">
-            Wybierz kierunek, grupę i semestr, aby przejść do planu.
+          <p class="text-sm font-bold text-gray-800">
+            Wybierz kierunek, grupę i semestr, aby przejść do planu
           </p>
         </div>
-
       </section>
     </div>
   </main>

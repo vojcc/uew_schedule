@@ -1,12 +1,12 @@
 {
-  "homepage": "https://vojcc.github.io/uew_schedule",
   "name": "frontend",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://vojcc.github.io/uew_schedule/",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp ./dist/index.html ./dist/404.html",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview",
     "lint": "eslint . --fix",

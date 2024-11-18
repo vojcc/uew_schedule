@@ -6,12 +6,12 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: process.env.NODE_ENV === 'production' ? '/uew_schedule/' : '/',
   plugins: [
     vue(),
     vueDevTools(),
   ],
   resolve: {
-    base: '/uew_schedule/',
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },

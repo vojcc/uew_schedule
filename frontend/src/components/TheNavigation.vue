@@ -23,24 +23,24 @@ const semester = computed(() =>
         <div class="flex items-center gap-5 font-medium">
           <RouterLink
             to="/"
-            class="flex items-center gap-1 border-b-2 border-transparent hover:border-uewyellow"
+            class="flex items-center gap-1 hover:drop-shadow"
           >
             <NumberedListIcon class="size-5 shrink-0" />
-            <span class="text-xs sm:text-sm">Plan zajęć</span>
+            <span class="text-sm text-gray-800">Plan zajęć</span>
           </RouterLink>
 
           <RouterLink
             to="/kalendarz"
-            class="flex items-center gap-1 border-b-2 border-transparent hover:border-uewyellow"
+            class="flex items-center gap-1 hover:drop-shadow"
           >
             <CalendarDaysIcon class="size-5 shrink-0" />
-            <span class="text-xs sm:text-sm">Kalendarz</span>
+            <span class="text-sm text-gray-800">Kalendarz</span>
           </RouterLink>
         </div>
       </div>
 
       <div class="flex flex-col items-end">
-        <p class="text-[11px] sm:text-xs font-medium text-nowrap">{{ subject }}&nbsp;</p>
+        <p class="text-[11px] sm:text-xs font-medium text-nowrap text-gray-800">{{ subject }}&nbsp;</p>
         <p class="text-[11px] sm:text-xs text-gray-600 text-nowrap">{{ semester }}&nbsp;</p>
         <p class="text-[11px] sm:text-xs text-gray-600 text-nowrap">{{ group }}&nbsp;</p>
       </div>
