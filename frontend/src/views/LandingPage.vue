@@ -1,16 +1,15 @@
 <script setup>
-import {onMounted, onUpdated, ref, watch} from 'vue'
-import {useUserSettingsStore} from '@/stores/UserSettingsStore.js'
-import {groups} from '../../../backend/schedule.json'
+import { onMounted, onUpdated, ref } from 'vue'
+import { useUserSettingsStore } from '@/stores/UserSettingsStore.js'
+import { groups } from '../../../backend/schedule.json'
 import {
   AdjustmentsHorizontalIcon,
   CalendarDaysIcon,
   ChevronDownIcon,
   ChevronUpIcon,
-  FireIcon
+  FireIcon,
 } from '@heroicons/vue/24/outline/index.js'
-import {onClickOutside} from '@vueuse/core'
-
+import { onClickOutside } from '@vueuse/core'
 
 const subject = ref('')
 const group = ref('')
@@ -47,7 +46,7 @@ onUpdated(() => {
       behavior: 'smooth',
       inline: 'center',
       block: 'nearest',
-    });
+    })
   }
 })
 
@@ -75,16 +74,14 @@ function refreshSelectedGroupDays() {
   selectedGroupDays.value = selectedGroup?.days
 
   //If user selected day, find in selectedGroupDays day with the closest date, if not find the closest day to today's date
-  let date = selectedDay.value
-    ? new Date(selectedDay.value.date)
-    : new Date()
+  let date = selectedDay.value ? new Date(selectedDay.value.date) : new Date()
 
   const closest = selectedGroupDays.value
-    .map(entry => ({
+    .map((entry) => ({
       ...entry,
-      parsedDate: new Date(entry.date.replace(/\./g, '-'))
+      parsedDate: new Date(entry.date.replace(/\./g, '-')),
     }))
-    .filter(entry => entry.parsedDate >= date)
+    .filter((entry) => entry.parsedDate >= date)
     .sort((a, b) => a.parsedDate - b.parsedDate)
 
   selectedDay.value = closest.length > 0 ? closest[0] : null
@@ -113,13 +110,13 @@ onClickOutside(groupList, () => {
   <main>
     <div class="p-4 sm:p-5">
       <div class="flex items-center gap-2">
-        <img src="../assets/uew-logo.png" alt="" class="size-7">
+        <img src="../assets/uew-logo.png" alt="" class="size-7" />
         <h1 class="w-fit text-2xl sm:text-3xl font-bold text-gray-800">Plan zajęć</h1>
       </div>
 
       <div class="w-full flex justify-end">
         <button @click="toggleSettingsForm" class="flex mt-4 items-center gap-1 hover:drop-shadow">
-          <AdjustmentsHorizontalIcon class="size-5"/>
+          <AdjustmentsHorizontalIcon class="size-5" />
           <span class="text-xs text-gray-800">
             {{ showUserSettingsForm === true ? 'Schowaj filtry' : 'Zmień filtry' }}
           </span>
@@ -149,9 +146,11 @@ onClickOutside(groupList, () => {
                     class="flex items-center shadow-md relative min-h-12 w-full cursor-default rounded-lg p-3 text-left text-gray-800 ring-1 ring-gray-200 ring-inset active:outline-none active:ring-uewblue focus:outline-none focus:ring-uewblue"
                   >
                     <span class="text-sm">{{ group }}</span>
-                    <span class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
-                      <ChevronUpIcon v-if="showGroupList" class="size-4 text-gray-800"/>
-                      <ChevronDownIcon v-else class="size-4 text-gray-800"/>
+                    <span
+                      class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2"
+                    >
+                      <ChevronUpIcon v-if="showGroupList" class="size-4 text-gray-800" />
+                      <ChevronDownIcon v-else class="size-4 text-gray-800" />
                     </span>
                   </button>
 
@@ -204,7 +203,7 @@ onClickOutside(groupList, () => {
 
       <section>
         <div v-if="selectedGroupDays.length">
-          <hr class="h-[2px] my-4 bg-uewyellow border-0"/>
+          <hr class="h-[2px] my-4 bg-uewyellow border-0" />
           <p v-if="group" class="font-bold text-lg text-gray-800">Grupa {{ group }}</p>
 
           <div class="flex flex-row overflow-x-scroll gap-2 my-2" ref="scrollContainer">
@@ -218,7 +217,7 @@ onClickOutside(groupList, () => {
                   ? 'bg-uewblue text-white '
                   : 'text-gray-800 hover:bg-gray-50'
               "
-              :ref="element => setButtonRef(day.date, element)"
+              :ref="(element) => setButtonRef(day.date, element)"
             >
               <span class="font-medium">
                 {{ day.date }}
@@ -231,7 +230,7 @@ onClickOutside(groupList, () => {
               <div class="flex flex-col my-3 gap-1 w-full" v-if="lesson.name !== '-'">
                 <div class="w-full flex gap-3 items-center">
                   <span class="text-xs font-medium text-gray-800">{{ lesson.start_hour }}</span>
-                  <hr class="flex-grow border-t border-gray-200"/>
+                  <hr class="flex-grow border-t border-gray-200" />
                 </div>
 
                 <div class="flex justify-end">
@@ -246,21 +245,21 @@ onClickOutside(groupList, () => {
 
                 <div class="w-full flex gap-3 items-center">
                   <span class="text-xs font-medium text-gray-800">{{ lesson.end_hour }}</span>
-                  <hr class="flex-grow border-t border-gray-200"/>
+                  <hr class="flex-grow border-t border-gray-200" />
                 </div>
               </div>
             </div>
           </div>
           <div class="mt-12 flex flex-col gap-2 justify-center items-center p-6" v-else>
-            <FireIcon class="size-16"/>
+            <FireIcon class="size-16" />
             <p class="text-center text-sm font-bold text-gray-800">Brak zajęć tego dnia.</p>
           </div>
         </div>
         <div class="mt-12 flex flex-col gap-2 justify-center items-center p-6" v-else>
-          <CalendarDaysIcon class="size-16"/>
+          <CalendarDaysIcon class="size-16" />
           <p class="text-center text-sm font-bold text-gray-800">
             Wybierz kierunek, grupę i semestr,
-            <br class="block sm:hidden"/>
+            <br class="block sm:hidden" />
             aby przejść do planu.
           </p>
         </div>

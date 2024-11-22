@@ -21,6 +21,6 @@ export const useUserSettingsStore = defineStore('UserSettingsStore', {
 
     getSemester() {
       return this.semester || localStorage.getItem('semester') || ''
-    }
+    },
   },
 })
