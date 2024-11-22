@@ -22,7 +22,7 @@ class ScheduleContentTransformer:
 
     @staticmethod
     def extract_lesson_and_teacher(text):
-        match = re.match(r'(.+?) \((.+)\)', text)
+        match = re.match(r"(.+?)\s*(?:\([^)]*\))?\s*\((.+)\)$", text)
 
         if match:
             lesson_name = match.group(1)

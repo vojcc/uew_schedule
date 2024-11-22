@@ -1,38 +1,27 @@
 <script setup>
-import {onMounted, ref} from 'vue'
+import {onMounted, onUpdated, ref, watch} from 'vue'
 import {useUserSettingsStore} from '@/stores/UserSettingsStore.js'
 import {groups} from '../../../backend/schedule.json'
 import {
   AdjustmentsHorizontalIcon,
-  FireIcon,
   CalendarDaysIcon,
   ChevronDownIcon,
-  ChevronUpIcon
+  ChevronUpIcon,
+  FireIcon
 } from '@heroicons/vue/24/outline/index.js'
-import { onClickOutside } from '@vueuse/core'
-const groupList = ref(null)
+import {onClickOutside} from '@vueuse/core'
 
-onClickOutside(groupList, () => {
-  showGroupList.value = false
-})
-
-const showGroupList = ref(false)
-
-function toggleShowGroupList() {
-  showGroupList.value = !showGroupList.value
-}
 
 const subject = ref('')
 const group = ref('')
 const semester = ref('')
-
+const selectedDay = ref('')
 const showUserSettingsForm = ref(true)
-
-function toggleSettingsForm() {
-  showUserSettingsForm.value = !showUserSettingsForm.value
-}
-
+const showGroupList = ref(false)
 const userSettingsStore = useUserSettingsStore()
+const groupList = ref(null)
+const buttonRefs = ref({})
+const scrollContainer = ref(null)
 
 onMounted(() => {
   if (userSettingsStore.getSubject()) {
@@ -44,44 +33,93 @@ onMounted(() => {
   }
 
   if (userSettingsStore.getSemester()) {
-    chooseSemester(userSettingsStore.getSemester())
+    selectSemester(userSettingsStore.getSemester())
   }
 
-  refreshScheduleForActualSettings()
+  if (userSettingsStore.getSelectedDay()) {
+    selectedDay.value = userSettingsStore.getSelectedDay()
+  }
+
+  if (group.value) {
+    setSelectedGroupDays()
+  }
+})
+
+onUpdated(() => {
+  if (selectedDay.value && buttonRefs.value[selectedDay.value.date]) {
+    buttonRefs.value[selectedDay.value.date].scrollIntoView({
+      behavior: 'smooth',
+      inline: 'center',
+      block: 'nearest',
+    });
+  }
 })
 
 function selectGroup(groupName) {
+  toggleShowGroupList()
+
   group.value = groupName
   userSettingsStore.setGroup(groupName)
-  refreshScheduleForActualSettings()
-
-  selectedDay.value = ''
-  toggleShowGroupList()
+  if (group.value) {
+    setSelectedGroupDays()
+  }
 }
 
-function chooseSemester(semesterName) {
+function selectSemester(semesterName) {
   semester.value = semesterName
+}
+
+function selectDay(day) {
+  selectedDay.value = day
+  userSettingsStore.setSelectedDay(day)
 }
 
 const selectedGroupDays = ref([])
 
-function refreshScheduleForActualSettings() {
+function setSelectedGroupDays() {
+  //Prepare list of dates of selected group
   const selectedGroup = groups.find((item) => item.name === group.value)
   selectedGroupDays.value = selectedGroup?.days
+
+  //If user didn't select any day then assign the closest day to today
+  if (!selectedDay.value) {
+    const closest = selectedGroupDays.value
+      .map(entry => ({
+        ...entry,
+        parsedDate: new Date(entry.date.replace(/\./g, '-'))
+      }))
+      .filter(entry => entry.parsedDate >= new Date())
+      .sort((a, b) => a.parsedDate - b.parsedDate)
+
+    selectedDay.value = closest.length > 0 ? closest[0] : null
+  }
 }
 
-const selectedDay = ref()
-
-function selectDay(day) {
-  selectedDay.value = day
+function setButtonRef(date, element) {
+  if (element) {
+    buttonRefs.value[date] = element
+  }
 }
+
+function toggleSettingsForm() {
+  showUserSettingsForm.value = !showUserSettingsForm.value
+}
+
+function toggleShowGroupList() {
+  showGroupList.value = !showGroupList.value
+}
+
+onClickOutside(groupList, () => {
+  showGroupList.value = false
+})
 </script>
+
 <template>
   <main>
     <div class="p-4 sm:p-5">
-      <div class="flex flex-col item-center justify-center gap-1">
-        <h1 class="w-fit text-3xl sm:text-4xl font-bold text-gray-800">Plan zajęć</h1>
-        <h2 class="sm:text-lg font-medium text-balance text-gray-800">Uniwersytetu Ekonomicznego we Wrocławiu</h2>
+      <div class="flex items-center gap-2">
+        <img src="../assets/uew-logo.png" alt="" class="size-7">
+        <h1 class="w-fit text-2xl sm:text-3xl font-bold text-gray-800">Plan zajęć</h1>
       </div>
 
       <div class="w-full flex justify-end">
@@ -101,7 +139,7 @@ function selectDay(day) {
                 <label class="text-sm font-bold text-gray-800">Kierunek</label>
                 <input
                   readonly
-                  class="disabled:bg-white px-2 py-2.5 text-sm text-gray-800 rounded-lg border border-gray-800 ring-inset focus:outline-none focus:ring-uewblue focus:ring-1"
+                  class="disabled:bg-white shadow-md min-h-12 p-3 text-sm text-gray-800 rounded-lg ring-1 ring-gray-200 ring-inset focus:outline-none focus:ring-uewblue"
                   type="text"
                   v-model="subject"
                 />
@@ -113,12 +151,12 @@ function selectDay(day) {
                   <button
                     @click="toggleShowGroupList()"
                     type="button"
-                    class="relative w-full cursor-default rounded-lg p-2 text-left text-gray-800 border border-gray-800 ring-inset focus:outline-none focus:ring-uewblue focus:ring-1"
+                    class="flex items-center shadow-md relative min-h-12 w-full cursor-default rounded-lg p-3 text-left text-gray-800 ring-1 ring-gray-200 ring-inset active:outline-none active:ring-uewblue focus:outline-none focus:ring-uewblue"
                   >
                     <span class="text-sm">{{ group }}</span>
                     <span class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
-                      <ChevronUpIcon v-if="showGroupList" class="size-4 text-gray-800" />
-                      <ChevronDownIcon v-else class="size-4 text-gray-800" />
+                      <ChevronUpIcon v-if="showGroupList" class="size-4 text-gray-800"/>
+                      <ChevronDownIcon v-else class="size-4 text-gray-800"/>
                     </span>
                   </button>
 
@@ -140,7 +178,7 @@ function selectDay(day) {
 
               <div class="flex gap-6 items-center">
                 <div
-                  @click="chooseSemester('zimowy')"
+                  @click="selectSemester('zimowy')"
                   class="flex items-center gap-1 cursor-pointer hover:drop-shadow"
                 >
                   <input
@@ -152,7 +190,7 @@ function selectDay(day) {
                   <label class="cursor-pointer text-sm text-gray-800">Semestr zimowy</label>
                 </div>
 
-                <div @click="chooseSemester('letni')" class="flex items-center gap-1">
+                <div @click="selectSemester('letni')" class="flex items-center gap-1">
                   <input
                     type="radio"
                     readonly
@@ -170,11 +208,11 @@ function selectDay(day) {
       </transition>
 
       <section>
-        <div v-if="selectedGroupDays">
+        <div v-if="selectedGroupDays.length">
           <hr class="h-[2px] my-4 bg-uewyellow border-0"/>
           <p v-if="group" class="font-bold text-lg text-gray-800">Grupa {{ group }}</p>
 
-          <div class="flex flex-row overflow-x-scroll gap-2 my-2">
+          <div class="flex flex-row overflow-x-scroll gap-2 my-2" ref="scrollContainer">
             <button
               @click="selectDay(day)"
               class="px-4 py-2 mb-2 text-sm border rounded-2xl"
@@ -185,6 +223,7 @@ function selectDay(day) {
                   ? 'bg-uewblue text-white '
                   : 'text-gray-800 hover:bg-gray-50'
               "
+              :ref="element => setButtonRef(day.date, element)"
             >
               <span class="font-medium">
                 {{ day.date }}

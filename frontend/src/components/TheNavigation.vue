@@ -6,7 +6,7 @@ import { useUserSettingsStore } from '@/stores/UserSettingsStore.js'
 
 const userSettingsStore = useUserSettingsStore()
 
-const subject = computed(() => userSettingsStore.getSubject() || '')
+const subject = computed(() => userSettingsStore.getSubject())
 
 const group = computed(() =>
   userSettingsStore.getGroup() ? `Grupa ${userSettingsStore.getGroup()}` : '',
@@ -27,10 +27,10 @@ const semester = computed(() =>
             <span class="text-sm text-gray-800">Plan zajęć</span>
           </RouterLink>
 
-          <RouterLink to="/kalendarz" class="flex items-center gap-1 hover:drop-shadow">
-            <CalendarDaysIcon class="size-5 shrink-0" />
-            <span class="text-sm text-gray-800">Kalendarz</span>
-          </RouterLink>
+          <span class="flex items-center gap-1">
+            <CalendarDaysIcon class="size-5 shrink-0 text-gray-300" />
+            <span class="text-sm text-gray-300">Kalendarz</span>
+          </span>
         </div>
       </div>
 
