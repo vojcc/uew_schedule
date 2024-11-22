@@ -36,12 +36,8 @@ onMounted(() => {
     selectSemester(userSettingsStore.getSemester())
   }
 
-  if (userSettingsStore.getSelectedDay()) {
-    selectedDay.value = userSettingsStore.getSelectedDay()
-  }
-
   if (group.value) {
-    setSelectedGroupDays()
+    refreshSelectedGroupDays()
   }
 })
 
@@ -60,9 +56,8 @@ function selectGroup(groupName) {
 
   group.value = groupName
   userSettingsStore.setGroup(groupName)
-  if (group.value) {
-    setSelectedGroupDays()
-  }
+
+  refreshSelectedGroupDays()
 }
 
 function selectSemester(semesterName) {
@@ -71,28 +66,28 @@ function selectSemester(semesterName) {
 
 function selectDay(day) {
   selectedDay.value = day
-  userSettingsStore.setSelectedDay(day)
 }
 
 const selectedGroupDays = ref([])
 
-function setSelectedGroupDays() {
-  //Prepare list of dates of selected group
+function refreshSelectedGroupDays() {
   const selectedGroup = groups.find((item) => item.name === group.value)
   selectedGroupDays.value = selectedGroup?.days
 
-  //If user didn't select any day then assign the closest day to today
-  if (!selectedDay.value) {
-    const closest = selectedGroupDays.value
-      .map(entry => ({
-        ...entry,
-        parsedDate: new Date(entry.date.replace(/\./g, '-'))
-      }))
-      .filter(entry => entry.parsedDate >= new Date())
-      .sort((a, b) => a.parsedDate - b.parsedDate)
+  //If user selected day, find in selectedGroupDays day with the closest date, if not find the closest day to today's date
+  let date = selectedDay.value
+    ? new Date(selectedDay.value.date)
+    : new Date()
 
-    selectedDay.value = closest.length > 0 ? closest[0] : null
-  }
+  const closest = selectedGroupDays.value
+    .map(entry => ({
+      ...entry,
+      parsedDate: new Date(entry.date.replace(/\./g, '-'))
+    }))
+    .filter(entry => entry.parsedDate >= date)
+    .sort((a, b) => a.parsedDate - b.parsedDate)
+
+  selectedDay.value = closest.length > 0 ? closest[0] : null
 }
 
 function setButtonRef(date, element) {

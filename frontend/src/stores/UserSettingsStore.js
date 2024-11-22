@@ -5,7 +5,6 @@ export const useUserSettingsStore = defineStore('UserSettingsStore', {
     subject: 'Informatyka w Biznesie',
     group: '',
     semester: 'zimowy',
-    selectedDay: ''
   }),
   actions: {
     getSubject() {
@@ -22,13 +21,6 @@ export const useUserSettingsStore = defineStore('UserSettingsStore', {
 
     getSemester() {
       return this.semester || localStorage.getItem('semester') || ''
-    },
-
-    setSelectedDay(day) {
-      this.selectedDay = day
-    },
-    getSelectedDay() {
-      return this.selectedDay
     }
   },
 })
