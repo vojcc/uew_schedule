@@ -211,7 +211,7 @@ onClickOutside(groupList, () => {
           <div class="flex flex-row overflow-x-scroll gap-2 my-2" ref="scrollContainer">
             <button
               @click="selectDay(day)"
-              class="px-3 py-2 mb-2 text-sm border rounded-2xl"
+              class="px-3 py-1.5 mb-2 text-sm border rounded-lg shadow-md"
               v-for="day in selectedGroupDays"
               :key="day.date"
               :class="
@@ -222,8 +222,8 @@ onClickOutside(groupList, () => {
               :ref="(element) => setButtonRef(day.date, element)"
             >
               <span class="flex flex-col justify-center items-center">
-                <span class="font-medium whitespace-nowrap">{{ day.date }}</span>
-                <small>{{ day.name }}</small>
+                <span class="font-medium whitespace-nowrap">{{ new Date(day.date).toLocaleDateString('pl') }}</span>
+                <small :class="selectedDay && selectedDay.date === day.date ? 'text-white' : 'text-gray-400'">{{ day.name }}</small>
               </span>
             </button>
           </div>
