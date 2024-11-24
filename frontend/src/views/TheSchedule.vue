@@ -237,7 +237,10 @@ onClickOutside(groupList, () => {
                 </div>
 
                 <div class="flex justify-end">
-                  <div class="flex flex-col border-l-[5px] border-dotted border-blue-800 ml-10 w-full px-4">
+                  <div
+                    :style="`border-color: ${lesson.color}`"
+                    class="flex flex-col border-l-[5px] border-dotted border-blue-800 ml-10 w-full px-4"
+                  >
                     <span class="font-bold text-gray-800">{{ lesson.name }}</span>
                     <span class="text-xs text-gray-600">{{ lesson.name_abbr }}</span>
                     <span class="text-gray-600 text-xs">{{ lesson.teacher_name }}</span>

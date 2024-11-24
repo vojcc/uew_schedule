@@ -97,6 +97,11 @@ class ScheduleContentTransformer:
                         lesson_name = lesson_name_abbr
                         lesson_name_abbr = ''
 
+                    color = 'gray'
+                    if hasattr(cell.next, 'next'):
+                        if hasattr(cell.next.next, 'attrs'):
+                            color = cell.next.next.attrs['color']
+
                     lesson = Lesson(
                         name = lesson_name,
                         name_abbr = lesson_name_abbr,
@@ -104,6 +109,7 @@ class ScheduleContentTransformer:
                         start_hour = TimeConverter.minutes_to_hours(hour_in_minutes),
                         end_hour = TimeConverter.minutes_to_hours(hour_in_minutes + duration),
                         duration = duration,
+                        color = color
                     )
 
                     day.add_lesson(lesson)
