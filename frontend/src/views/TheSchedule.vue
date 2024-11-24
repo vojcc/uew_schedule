@@ -142,7 +142,7 @@ onClickOutside(groupList, () => {
               <div class="flex flex-col">
                 <label class="text-sm font-bold text-gray-800">Kierunek</label>
                 <input
-                  class="disabled:bg-white shadow-md min-h-12 p-3 text-sm text-gray-800 rounded-lg ring-1 ring-gray-200 ring-inset focus:outline-none focus:ring-uewblue"
+                  class="disabled:bg-white shadow min-h-12 p-3 text-sm text-gray-800 rounded-lg ring-1 ring-gray-200 ring-inset focus:outline-none focus:ring-uewblue"
                   readonly
                   type="text"
                   v-model="subject"
@@ -155,7 +155,7 @@ onClickOutside(groupList, () => {
                   <button
                     @click="toggleShowGroupList()"
                     type="button"
-                    class="flex items-center shadow-md relative min-h-12 w-full cursor-default rounded-lg p-3 text-left text-gray-800 ring-1 ring-gray-200 ring-inset active:outline-none active:ring-uewblue focus:outline-none focus:ring-uewblue"
+                    class="flex items-center shadow relative min-h-12 w-full rounded-lg p-3 text-left text-gray-800 ring-1 ring-gray-200 ring-inset active:outline-none active:ring-uewblue focus:outline-none focus:ring-uewblue"
                   >
                     <span class="text-sm">{{ group }}</span>
                     <span
@@ -171,12 +171,13 @@ onClickOutside(groupList, () => {
                     class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-lg bg-white py-1 shadow-lg ring-1 ring-black/5 focus:outline-none text-sm"
                   >
                     <li
-                      @click="selectGroup(group.name)"
-                      v-for="group in groups"
-                      :key="group.name"
-                      class="relative select-none py-2 pl-3 pr-9 text-gray-900 hover:bg-gray-50 cursor-pointer"
+                      @click="selectGroup(groupToSelect.name)"
+                      v-for="groupToSelect in groups"
+                      :key="groupToSelect.name"
+                      class="relative select-none py-2 pl-3 pr-9 text-gray-900 cursor-pointer"
+                      :class="groupToSelect.name === group ? 'bg-gray-100' : 'hover:bg-gray-50'"
                     >
-                      {{ group.name }}
+                      {{ groupToSelect.name }}
                     </li>
                   </ul>
                 </div>
@@ -221,7 +222,7 @@ onClickOutside(groupList, () => {
           <div class="flex flex-row overflow-x-scroll gap-2 my-2" ref="scrollContainer">
             <button
               @click="selectDay(day)"
-              class="px-3 py-1.5 mb-2 text-sm border rounded-lg shadow-md"
+              class="px-3 py-1.5 mb-2 text-sm border rounded-lg shadow"
               v-for="day in selectedGroupDays"
               :key="day.date"
               :class="
@@ -233,14 +234,15 @@ onClickOutside(groupList, () => {
             >
               <span class="flex flex-col justify-center items-center">
                 <span class="font-medium whitespace-nowrap">{{
-                  new Date(day.date).toLocaleDateString('pl')
+                    new Date(day.date).toLocaleDateString('pl-PL', {
+                        day: '2-digit',
+                        month: '2-digit',
+                        year: 'numeric'
+                    })
                 }}</span>
-                <small
-                  :class="
-                    selectedDay && selectedDay.date === day.date ? 'text-white' : 'text-gray-400'
-                  "
-                  >{{ day.name }}</small
-                >
+                <small :class="selectedDay && selectedDay.date === day.date ? 'text-white' : 'text-gray-400'">
+                  {{ day.name }}
+                </small>
               </span>
             </button>
           </div>
