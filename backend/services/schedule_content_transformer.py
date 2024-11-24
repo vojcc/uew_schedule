@@ -1,3 +1,6 @@
+from backend.enums.language import Language
+from backend.helpers.day_name_resolver import DayNameResolver
+from backend.helpers.day_name_translator import DayNameTranslator
 from backend.models.day import Day
 from backend.models.group import Group
 from backend.models.lesson import Lesson
@@ -72,8 +75,11 @@ class ScheduleContentTransformer:
                 start_iteration_index = 1
 
             group = schedule.get_group_by_index(rows_count)
+
             day = Day(date)
-            day.set_name('Czwartek')
+            day_name = DayNameResolver.get_day_name(date)
+            day_name = DayNameTranslator.translate(day_name, Language.POLISH)
+            day.set_name(day_name)
 
             for cell in cells[start_iteration_index:]:
                 if cell.text == '\xa0\xa0\xa0':
