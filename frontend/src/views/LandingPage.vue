@@ -76,13 +76,18 @@ function refreshSelectedGroupDays() {
   //If user selected day, find in selectedGroupDays day with the closest date, if not find the closest day to today's date
   let date = selectedDay.value ? new Date(selectedDay.value.date) : new Date()
 
-  const closest = selectedGroupDays.value
-    .map((entry) => ({
-      ...entry,
-      parsedDate: new Date(entry.date),
-    }))
-    .filter((entry) => entry.parsedDate >= date)
-    .sort((a, b) => a.parsedDate - b.parsedDate)
+const closest = selectedGroupDays.value
+  .map((entry) => ({
+    ...entry,
+    parsedDate: new Date(entry.date),
+  }))
+  .filter((entry) => {
+    const entryDateWithoutTime = new Date(entry.parsedDate).setHours(0, 0, 0, 0)
+    const currentDateWithoutTime = new Date(date).setHours(0, 0, 0, 0)
+
+    return entryDateWithoutTime >= currentDateWithoutTime;
+  })
+  .sort((a, b) => a.parsedDate - b.parsedDate);
 
   selectedDay.value = closest.length > 0 ? closest[0] : null
 }
