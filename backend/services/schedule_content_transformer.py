@@ -73,6 +73,7 @@ class ScheduleContentTransformer:
 
             group = schedule.get_group_by_index(rows_count)
             day = Day(date)
+            day.set_name('Czwartek')
 
             for cell in cells[start_iteration_index:]:
                 if cell.text == '\xa0\xa0\xa0':

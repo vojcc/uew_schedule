@@ -219,8 +219,9 @@ onClickOutside(groupList, () => {
               "
               :ref="(element) => setButtonRef(day.date, element)"
             >
-              <span class="font-medium text-nowrap">
-                {{ day.date }}
+              <span class="flex flex-col justify-center items-center">
+                <span class="font-medium text-nowrap">{{ day.date }}</span>
+                <span class="text-xs mt-1">{{ day.name }}</span>
               </span>
             </button>
           </div>

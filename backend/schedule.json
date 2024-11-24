@@ -5,6 +5,7 @@
             "days": [
                 {
                     "date": "2024-10-26",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Strategie biznesu",
@@ -42,6 +43,7 @@
                 },
                 {
                     "date": "2024-10-27",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -87,6 +89,7 @@
                 },
                 {
                     "date": "2024-11-09",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -108,6 +111,7 @@
                 },
                 {
                     "date": "2024-11-16",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -145,6 +149,7 @@
                 },
                 {
                     "date": "2024-11-17",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -198,6 +203,7 @@
                 },
                 {
                     "date": "2024-11-23",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -227,6 +233,7 @@
                 },
                 {
                     "date": "2024-11-24",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -272,6 +279,7 @@
                 },
                 {
                     "date": "2024-12-07",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -301,6 +309,7 @@
                 },
                 {
                     "date": "2024-12-08",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -338,6 +347,7 @@
                 },
                 {
                     "date": "2024-12-14",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Rachunkowość zarządcza",
@@ -391,6 +401,7 @@
                 },
                 {
                     "date": "2024-12-15",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -428,6 +439,7 @@
                 },
                 {
                     "date": "2024-12-21",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -465,6 +477,7 @@
                 },
                 {
                     "date": "2025-01-11",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -486,6 +499,7 @@
                 },
                 {
                     "date": "2025-01-12",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -507,6 +521,7 @@
                 },
                 {
                     "date": "2025-01-18",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -552,6 +567,7 @@
                 },
                 {
                     "date": "2025-01-19",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Strategie biznesu",
@@ -581,6 +597,7 @@
                 },
                 {
                     "date": "2025-02-01",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -618,14 +635,17 @@
                 },
                 {
                     "date": "2025-02-02",
+                    "name": "Czwartek",
                     "lessons": []
                 },
                 {
                     "date": "2025-02-08",
+                    "name": "Czwartek",
                     "lessons": []
                 },
                 {
                     "date": "2025-02-22",
+                    "name": "Czwartek",
                     "lessons": []
                 }
             ]
@@ -635,6 +655,7 @@
             "days": [
                 {
                     "date": "2024-10-26",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Strategie biznesu",
@@ -672,6 +693,7 @@
                 },
                 {
                     "date": "2024-10-27",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -717,6 +739,7 @@
                 },
                 {
                     "date": "2024-11-09",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -746,6 +769,7 @@
                 },
                 {
                     "date": "2024-11-16",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -783,6 +807,7 @@
                 },
                 {
                     "date": "2024-11-17",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -836,6 +861,7 @@
                 },
                 {
                     "date": "2024-11-23",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -873,6 +899,7 @@
                 },
                 {
                     "date": "2024-11-24",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -918,6 +945,7 @@
                 },
                 {
                     "date": "2024-12-07",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -955,6 +983,7 @@
                 },
                 {
                     "date": "2024-12-08",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -992,6 +1021,7 @@
                 },
                 {
                     "date": "2024-12-14",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -1029,6 +1059,7 @@
                 },
                 {
                     "date": "2024-12-15",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -1066,6 +1097,7 @@
                 },
                 {
                     "date": "2024-12-21",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -1103,6 +1135,7 @@
                 },
                 {
                     "date": "2025-01-11",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -1140,10 +1173,12 @@
                 },
                 {
                     "date": "2025-01-12",
+                    "name": "Czwartek",
                     "lessons": []
                 },
                 {
                     "date": "2025-01-18",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -1189,6 +1224,7 @@
                 },
                 {
                     "date": "2025-01-19",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Strategie biznesu",
@@ -1210,6 +1246,7 @@
                 },
                 {
                     "date": "2025-02-01",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -1247,14 +1284,17 @@
                 },
                 {
                     "date": "2025-02-02",
+                    "name": "Czwartek",
                     "lessons": []
                 },
                 {
                     "date": "2025-02-08",
+                    "name": "Czwartek",
                     "lessons": []
                 },
                 {
                     "date": "2025-02-22",
+                    "name": "Czwartek",
                     "lessons": []
                 }
             ]
@@ -1264,6 +1304,7 @@
             "days": [
                 {
                     "date": "2024-10-26",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Strategie biznesu",
@@ -1301,6 +1342,7 @@
                 },
                 {
                     "date": "2024-10-27",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -1346,6 +1388,7 @@
                 },
                 {
                     "date": "2024-11-09",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -1383,6 +1426,7 @@
                 },
                 {
                     "date": "2024-11-16",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -1420,6 +1464,7 @@
                 },
                 {
                     "date": "2024-11-17",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -1473,6 +1518,7 @@
                 },
                 {
                     "date": "2024-11-23",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -1502,6 +1548,7 @@
                 },
                 {
                     "date": "2024-11-24",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -1547,6 +1594,7 @@
                 },
                 {
                     "date": "2024-12-07",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -1584,6 +1632,7 @@
                 },
                 {
                     "date": "2024-12-08",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -1621,6 +1670,7 @@
                 },
                 {
                     "date": "2024-12-14",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -1658,6 +1708,7 @@
                 },
                 {
                     "date": "2024-12-15",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -1695,6 +1746,7 @@
                 },
                 {
                     "date": "2024-12-21",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Strategie biznesu",
@@ -1740,6 +1792,7 @@
                 },
                 {
                     "date": "2025-01-11",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -1769,10 +1822,12 @@
                 },
                 {
                     "date": "2025-01-12",
+                    "name": "Czwartek",
                     "lessons": []
                 },
                 {
                     "date": "2025-01-18",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -1818,6 +1873,7 @@
                 },
                 {
                     "date": "2025-01-19",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -1839,6 +1895,7 @@
                 },
                 {
                     "date": "2025-02-01",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -1876,14 +1933,17 @@
                 },
                 {
                     "date": "2025-02-02",
+                    "name": "Czwartek",
                     "lessons": []
                 },
                 {
                     "date": "2025-02-08",
+                    "name": "Czwartek",
                     "lessons": []
                 },
                 {
                     "date": "2025-02-22",
+                    "name": "Czwartek",
                     "lessons": []
                 }
             ]
@@ -1893,6 +1953,7 @@
             "days": [
                 {
                     "date": "2024-10-26",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Strategie biznesu",
@@ -1930,6 +1991,7 @@
                 },
                 {
                     "date": "2024-10-27",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -1975,6 +2037,7 @@
                 },
                 {
                     "date": "2024-11-09",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -2012,6 +2075,7 @@
                 },
                 {
                     "date": "2024-11-16",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -2049,6 +2113,7 @@
                 },
                 {
                     "date": "2024-11-17",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -2102,6 +2167,7 @@
                 },
                 {
                     "date": "2024-11-23",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -2131,6 +2197,7 @@
                 },
                 {
                     "date": "2024-11-24",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -2176,6 +2243,7 @@
                 },
                 {
                     "date": "2024-12-07",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Big data",
@@ -2213,6 +2281,7 @@
                 },
                 {
                     "date": "2024-12-08",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -2250,6 +2319,7 @@
                 },
                 {
                     "date": "2024-12-14",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -2279,6 +2349,7 @@
                 },
                 {
                     "date": "2024-12-15",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -2316,6 +2387,7 @@
                 },
                 {
                     "date": "2024-12-21",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Big data",
@@ -2361,6 +2433,7 @@
                 },
                 {
                     "date": "2025-01-11",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -2390,6 +2463,7 @@
                 },
                 {
                     "date": "2025-01-12",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -2427,6 +2501,7 @@
                 },
                 {
                     "date": "2025-01-18",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -2448,6 +2523,7 @@
                 },
                 {
                     "date": "2025-01-19",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Rachunkowość zarządcza",
@@ -2477,6 +2553,7 @@
                 },
                 {
                     "date": "2025-02-01",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -2506,14 +2583,17 @@
                 },
                 {
                     "date": "2025-02-02",
+                    "name": "Czwartek",
                     "lessons": []
                 },
                 {
                     "date": "2025-02-08",
+                    "name": "Czwartek",
                     "lessons": []
                 },
                 {
                     "date": "2025-02-22",
+                    "name": "Czwartek",
                     "lessons": []
                 }
             ]
@@ -2523,6 +2603,7 @@
             "days": [
                 {
                     "date": "2024-10-26",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Strategie biznesu",
@@ -2560,6 +2641,7 @@
                 },
                 {
                     "date": "2024-10-27",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -2605,6 +2687,7 @@
                 },
                 {
                     "date": "2024-11-09",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -2618,6 +2701,7 @@
                 },
                 {
                     "date": "2024-11-16",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -2671,6 +2755,7 @@
                 },
                 {
                     "date": "2024-11-17",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -2724,6 +2809,7 @@
                 },
                 {
                     "date": "2024-11-23",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -2753,6 +2839,7 @@
                 },
                 {
                     "date": "2024-11-24",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -2798,6 +2885,7 @@
                 },
                 {
                     "date": "2024-12-07",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -2835,6 +2923,7 @@
                 },
                 {
                     "date": "2024-12-08",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -2872,6 +2961,7 @@
                 },
                 {
                     "date": "2024-12-14",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -2909,6 +2999,7 @@
                 },
                 {
                     "date": "2024-12-15",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -2946,6 +3037,7 @@
                 },
                 {
                     "date": "2024-12-21",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -2983,6 +3075,7 @@
                 },
                 {
                     "date": "2025-01-11",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Rachunkowość zarządcza",
@@ -3028,6 +3121,7 @@
                 },
                 {
                     "date": "2025-01-12",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Strategie biznesu",
@@ -3065,6 +3159,7 @@
                 },
                 {
                     "date": "2025-01-18",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -3086,6 +3181,7 @@
                 },
                 {
                     "date": "2025-01-19",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Rachunkowość zarządcza",
@@ -3107,6 +3203,7 @@
                 },
                 {
                     "date": "2025-02-01",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -3120,6 +3217,7 @@
                 },
                 {
                     "date": "2025-02-02",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -3141,10 +3239,12 @@
                 },
                 {
                     "date": "2025-02-08",
+                    "name": "Czwartek",
                     "lessons": []
                 },
                 {
                     "date": "2025-02-22",
+                    "name": "Czwartek",
                     "lessons": []
                 }
             ]
@@ -3154,6 +3254,7 @@
             "days": [
                 {
                     "date": "2024-10-26",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Strategie biznesu",
@@ -3191,6 +3292,7 @@
                 },
                 {
                     "date": "2024-10-27",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -3236,6 +3338,7 @@
                 },
                 {
                     "date": "2024-11-09",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -3249,6 +3352,7 @@
                 },
                 {
                     "date": "2024-11-16",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -3278,6 +3382,7 @@
                 },
                 {
                     "date": "2024-11-17",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -3331,6 +3436,7 @@
                 },
                 {
                     "date": "2024-11-23",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Rachunkowość zarządcza",
@@ -3376,6 +3482,7 @@
                 },
                 {
                     "date": "2024-11-24",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -3421,6 +3528,7 @@
                 },
                 {
                     "date": "2024-12-07",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -3466,6 +3574,7 @@
                 },
                 {
                     "date": "2024-12-08",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -3503,6 +3612,7 @@
                 },
                 {
                     "date": "2024-12-14",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -3540,6 +3650,7 @@
                 },
                 {
                     "date": "2024-12-15",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -3577,6 +3688,7 @@
                 },
                 {
                     "date": "2024-12-21",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -3614,6 +3726,7 @@
                 },
                 {
                     "date": "2025-01-11",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Big data",
@@ -3659,6 +3772,7 @@
                 },
                 {
                     "date": "2025-01-12",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Strategie biznesu",
@@ -3696,6 +3810,7 @@
                 },
                 {
                     "date": "2025-01-18",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -3717,6 +3832,7 @@
                 },
                 {
                     "date": "2025-01-19",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Rachunkowość zarządcza",
@@ -3738,6 +3854,7 @@
                 },
                 {
                     "date": "2025-02-01",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -3751,6 +3868,7 @@
                 },
                 {
                     "date": "2025-02-02",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -3772,10 +3890,12 @@
                 },
                 {
                     "date": "2025-02-08",
+                    "name": "Czwartek",
                     "lessons": []
                 },
                 {
                     "date": "2025-02-22",
+                    "name": "Czwartek",
                     "lessons": []
                 }
             ]
@@ -3785,6 +3905,7 @@
             "days": [
                 {
                     "date": "2024-10-26",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Strategie biznesu",
@@ -3822,6 +3943,7 @@
                 },
                 {
                     "date": "2024-10-27",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -3867,6 +3989,7 @@
                 },
                 {
                     "date": "2024-11-09",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -3880,6 +4003,7 @@
                 },
                 {
                     "date": "2024-11-16",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -3917,6 +4041,7 @@
                 },
                 {
                     "date": "2024-11-17",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -3970,6 +4095,7 @@
                 },
                 {
                     "date": "2024-11-23",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -4007,6 +4133,7 @@
                 },
                 {
                     "date": "2024-11-24",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -4052,6 +4179,7 @@
                 },
                 {
                     "date": "2024-12-07",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -4089,6 +4217,7 @@
                 },
                 {
                     "date": "2024-12-08",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -4126,6 +4255,7 @@
                 },
                 {
                     "date": "2024-12-14",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -4163,6 +4293,7 @@
                 },
                 {
                     "date": "2024-12-15",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -4200,6 +4331,7 @@
                 },
                 {
                     "date": "2024-12-21",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -4237,6 +4369,7 @@
                 },
                 {
                     "date": "2025-01-11",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -4282,6 +4415,7 @@
                 },
                 {
                     "date": "2025-01-12",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Strategie biznesu",
@@ -4319,6 +4453,7 @@
                 },
                 {
                     "date": "2025-01-18",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -4340,6 +4475,7 @@
                 },
                 {
                     "date": "2025-01-19",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Rachunkowość zarządcza",
@@ -4369,6 +4505,7 @@
                 },
                 {
                     "date": "2025-02-01",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "JOBLOK II",
@@ -4382,6 +4519,7 @@
                 },
                 {
                     "date": "2025-02-02",
+                    "name": "Czwartek",
                     "lessons": [
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -4403,10 +4541,12 @@
                 },
                 {
                     "date": "2025-02-08",
+                    "name": "Czwartek",
                     "lessons": []
                 },
                 {
                     "date": "2025-02-22",
+                    "name": "Czwartek",
                     "lessons": []
                 }
             ]
