@@ -79,7 +79,7 @@ function refreshSelectedGroupDays() {
   const closest = selectedGroupDays.value
     .map((entry) => ({
       ...entry,
-      parsedDate: new Date(entry.date.replace(/\./g, '-')),
+      parsedDate: new Date(entry.date),
     }))
     .filter((entry) => entry.parsedDate >= date)
     .sort((a, b) => a.parsedDate - b.parsedDate)
@@ -219,7 +219,7 @@ onClickOutside(groupList, () => {
               "
               :ref="(element) => setButtonRef(day.date, element)"
             >
-              <span class="font-medium">
+              <span class="font-medium text-nowrap">
                 {{ day.date }}
               </span>
             </button>
@@ -252,7 +252,7 @@ onClickOutside(groupList, () => {
           </div>
           <div class="mt-12 flex flex-col gap-2 justify-center items-center p-6" v-else>
             <FireIcon class="size-16" />
-            <p class="text-center text-sm font-bold text-gray-800">Brak zajęć tego dnia.</p>
+            <p class="text-center text-sm font-bold text-gray-800">Brak zajęć tego dnia</p>
           </div>
         </div>
         <div class="mt-12 flex flex-col gap-2 justify-center items-center p-6" v-else>
@@ -260,7 +260,7 @@ onClickOutside(groupList, () => {
           <p class="text-center text-sm font-bold text-gray-800">
             Wybierz kierunek, grupę i semestr,
             <br class="block sm:hidden" />
-            aby przejść do planu.
+            aby przejść do planu
           </p>
         </div>
       </section>

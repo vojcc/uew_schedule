@@ -64,7 +64,9 @@ class ScheduleContentTransformer:
             cells = row.find_all('td')
 
             if rows_count == 0:
-                date = cells[0].find('b').text.strip()
+                raw_date = cells[0].find('b').text.strip()
+                date = raw_date.replace('.', '-')
+
                 start_iteration_index = 2
             else:
                 start_iteration_index = 1
