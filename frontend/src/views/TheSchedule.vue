@@ -114,13 +114,15 @@ onClickOutside(groupList, () => {
 <template>
   <main>
     <div class="p-4 sm:p-5">
-      <div class="flex items-center gap-2">
+      <div class="flex items-center gap-2"
+           :class="selectedGroupDays.length ? 'mb-5' : 'mb-10'"
+      >
         <img src="../assets/uew-logo.png" alt="" class="size-7" />
         <h1 class="w-fit text-2xl sm:text-3xl font-bold text-gray-800">Plan zajęć</h1>
       </div>
 
       <div class="w-full flex justify-end">
-        <button @click="toggleSettingsForm" class="flex mt-4 items-center gap-1 hover:drop-shadow">
+        <button v-if="selectedGroupDays.length" @click="toggleSettingsForm" class="flex items-center gap-1 hover:drop-shadow">
           <AdjustmentsHorizontalIcon class="size-5" />
           <span class="text-xs text-gray-800">
             {{ showUserSettingsForm === true ? 'Schowaj filtry' : 'Zmień filtry' }}
@@ -134,11 +136,8 @@ onClickOutside(groupList, () => {
             <form class="flex flex-col gap-6">
               <div class="flex flex-col">
                 <label class="text-sm font-bold text-gray-800">Kierunek</label>
-                <input
-                  readonly
-                  class="disabled:bg-white shadow-md min-h-12 p-3 text-sm text-gray-800 rounded-lg ring-1 ring-gray-200 ring-inset focus:outline-none focus:ring-uewblue"
-                  type="text"
-                  v-model="subject"
+                <input class="disabled:bg-white shadow-md min-h-12 p-3 text-sm text-gray-800 rounded-lg ring-1 ring-gray-200 ring-inset focus:outline-none focus:ring-uewblue"
+                       readonly type="text" v-model="subject"
                 />
               </div>
 
@@ -151,9 +150,7 @@ onClickOutside(groupList, () => {
                     class="flex items-center shadow-md relative min-h-12 w-full cursor-default rounded-lg p-3 text-left text-gray-800 ring-1 ring-gray-200 ring-inset active:outline-none active:ring-uewblue focus:outline-none focus:ring-uewblue"
                   >
                     <span class="text-sm">{{ group }}</span>
-                    <span
-                      class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2"
-                    >
+                    <span class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
                       <ChevronUpIcon v-if="showGroupList" class="size-4 text-gray-800" />
                       <ChevronDownIcon v-else class="size-4 text-gray-800" />
                     </span>
@@ -214,7 +211,7 @@ onClickOutside(groupList, () => {
           <div class="flex flex-row overflow-x-scroll gap-2 my-2" ref="scrollContainer">
             <button
               @click="selectDay(day)"
-              class="px-4 py-2 mb-2 text-sm border rounded-2xl"
+              class="px-3 py-2 mb-2 text-sm border rounded-2xl"
               v-for="day in selectedGroupDays"
               :key="day.date"
               :class="
@@ -226,23 +223,21 @@ onClickOutside(groupList, () => {
             >
               <span class="flex flex-col justify-center items-center">
                 <span class="font-medium whitespace-nowrap">{{ day.date }}</span>
-                <span class="text-xs mt-1">{{ day.name }}</span>
+                <small>{{ day.name }}</small>
               </span>
             </button>
           </div>
 
           <div v-if="selectedDay?.lessons?.length">
             <div class="flex" v-for="(lesson, index) in selectedDay.lessons" :key="index">
-              <div class="flex flex-col my-3 gap-1 w-full" v-if="lesson.name !== '-'">
+              <div class="flex flex-col my-3 gap-1 w-full">
                 <div class="w-full flex gap-3 items-center">
                   <span class="text-xs font-medium text-gray-800">{{ lesson.start_hour }}</span>
                   <hr class="flex-grow border-t border-gray-200" />
                 </div>
 
                 <div class="flex justify-end">
-                  <div
-                    class="flex flex-col border-l-[5px] border-dotted border-blue-800 ml-10 w-full px-4"
-                  >
+                  <div class="flex flex-col border-l-[5px] border-dotted border-blue-800 ml-10 w-full px-4">
                     <span class="font-bold text-gray-800">{{ lesson.name }}</span>
                     <span class="text-xs text-gray-600">{{ lesson.name_abbr }}</span>
                     <span class="text-gray-600 text-xs">{{ lesson.teacher_name }}</span>
@@ -256,11 +251,11 @@ onClickOutside(groupList, () => {
               </div>
             </div>
           </div>
-          <div class="mt-12" v-else>
+          <div v-else class="mt-12">
             <NoLessons />
           </div>
         </div>
-        <div class="mt-12 flex flex-col gap-2 justify-center items-center p-6" v-else>
+        <div v-else class="mt-12">
           <SetSettings />
         </div>
       </section>
