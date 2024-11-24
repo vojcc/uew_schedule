@@ -3,7 +3,6 @@ import { onMounted, onUpdated, ref } from 'vue'
 import { useUserSettingsStore } from '@/stores/UserSettingsStore.js'
 import { groups } from '../../../backend/schedule.json'
 import {
-  AdjustmentsHorizontalIcon,
   ChevronDownIcon,
   ChevronUpIcon,
 } from '@heroicons/vue/24/outline/index.js'
@@ -12,11 +11,8 @@ import NoLessons from '@/components/UI/empty_states/NoLessons.vue'
 import SetSettings from '@/components/UI/empty_states/SetSettings.vue'
 import LessonScheduleCard from '@/components/UI/LessonScheduleCard.vue'
 
-const subject = ref('')
 const group = ref('')
-const semester = ref('')
 const selectedDay = ref('')
-const showUserSettingsForm = ref(true)
 const showGroupList = ref(false)
 const userSettingsStore = useUserSettingsStore()
 const groupList = ref(null)
@@ -24,16 +20,8 @@ const buttonRefs = ref({})
 const scrollContainer = ref(null)
 
 onMounted(() => {
-  if (userSettingsStore.getSubject()) {
-    subject.value = userSettingsStore.getSubject()
-  }
-
   if (userSettingsStore.getGroup()) {
     group.value = userSettingsStore.getGroup()
-  }
-
-  if (userSettingsStore.getSemester()) {
-    selectSemester(userSettingsStore.getSemester())
   }
 
   if (group.value) {
@@ -58,10 +46,6 @@ function selectGroup(groupName) {
   userSettingsStore.setGroup(groupName)
 
   refreshSelectedGroupDays()
-}
-
-function selectSemester(semesterName) {
-  semester.value = semesterName
 }
 
 function selectDay(day) {
@@ -101,10 +85,6 @@ function setButtonRef(date, element) {
   }
 }
 
-function toggleSettingsForm() {
-  showUserSettingsForm.value = !showUserSettingsForm.value
-}
-
 function toggleShowGroupList() {
   showGroupList.value = !showGroupList.value
 }
@@ -122,104 +102,49 @@ onClickOutside(groupList, () => {
         <h1 class="w-fit text-2xl sm:text-3xl font-bold text-gray-800">Plan zajęć</h1>
       </div>
 
-      <div class="w-full flex justify-end">
-        <button
-          v-if="selectedGroupDays.length"
-          @click="toggleSettingsForm"
-          class="flex items-center gap-1 hover:drop-shadow"
-        >
-          <AdjustmentsHorizontalIcon class="size-5" />
-          <span class="text-xs text-gray-800">
-            {{ showUserSettingsForm === true ? 'Schowaj filtry' : 'Zmień filtry' }}
-          </span>
-        </button>
-      </div>
-
-      <transition name="slide-horizontal" mode="out-in">
-        <div v-if="showUserSettingsForm" class="flex flex-col">
-          <div class="w-full">
-            <form class="flex flex-col gap-6">
-              <div class="flex flex-col">
-                <label class="text-sm font-bold text-gray-800">Kierunek</label>
-                <input
-                  class="disabled:bg-white shadow min-h-12 p-3 text-sm text-gray-800 rounded-lg ring-1 ring-gray-200 ring-inset focus:outline-none focus:ring-uewblue"
-                  readonly
-                  type="text"
-                  v-model="subject"
-                />
-              </div>
-
-              <div>
-                <label class="block text-sm font-bold text-gray-900">Grupa</label>
-                <div ref="groupList" class="relative">
-                  <button
-                    @click="toggleShowGroupList()"
-                    type="button"
-                    class="flex items-center shadow relative min-h-12 w-full rounded-lg p-3 text-left text-gray-800 ring-1 ring-gray-200 ring-inset active:outline-none active:ring-uewblue focus:outline-none focus:ring-uewblue"
-                  >
-                    <span class="text-sm">{{ group }}</span>
-                    <span
-                      class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2"
-                    >
-                      <ChevronUpIcon v-if="showGroupList" class="size-4 text-gray-800" />
-                      <ChevronDownIcon v-else class="size-4 text-gray-800" />
-                    </span>
-                  </button>
-
-                  <ul
-                    v-if="showGroupList"
-                    class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-lg bg-white py-1 shadow-lg ring-1 ring-black/5 focus:outline-none text-sm"
-                  >
-                    <li
-                      @click="selectGroup(groupToSelect.name)"
-                      v-for="groupToSelect in groups"
-                      :key="groupToSelect.name"
-                      class="relative select-none py-2 pl-3 pr-9 text-gray-900 cursor-pointer"
-                      :class="groupToSelect.name === group ? 'bg-gray-100' : 'hover:bg-gray-50'"
-                    >
-                      {{ groupToSelect.name }}
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="flex gap-6 items-center">
-                <div
-                  @click="selectSemester('zimowy')"
-                  class="flex items-center gap-1 cursor-pointer hover:drop-shadow"
+      <div class="flex flex-col">
+        <div class="w-full">
+          <form class="flex flex-col gap-6">
+            <div>
+              <label class="block text-sm font-bold text-gray-900">Grupa</label>
+              <div ref="groupList" class="relative">
+                <button
+                  @click="toggleShowGroupList()"
+                  type="button"
+                  class="flex items-center shadow relative min-h-12 w-full rounded-lg p-3 text-left text-gray-800 ring-1 ring-gray-200 ring-inset active:outline-none active:ring-uewblue focus:outline-none focus:ring-uewblue"
                 >
-                  <input
-                    type="radio"
-                    class="size-4 accent-uewblue cursor-pointer"
-                    value="zimowy"
-                    v-model="semester"
-                  />
-                  <label class="cursor-pointer text-sm text-gray-800">Semestr zimowy</label>
-                </div>
+                  <span class="text-sm">{{ group }}</span>
+                  <span
+                    class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2"
+                  >
+                    <ChevronUpIcon v-if="showGroupList" class="size-4 text-gray-800" />
+                    <ChevronDownIcon v-else class="size-4 text-gray-800" />
+                  </span>
+                </button>
 
-                <div @click="selectSemester('letni')" class="flex items-center gap-1">
-                  <input
-                    type="radio"
-                    readonly
-                    disabled
-                    class="size-4 accent-uewblue"
-                    value="letni"
-                    v-model="semester"
-                  />
-                  <label class="text-gray-400 text-sm">Semestr letni</label>
-                </div>
+                <ul
+                  v-if="showGroupList"
+                  class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-lg bg-white py-1 shadow-lg ring-1 ring-black/5 focus:outline-none text-sm"
+                >
+                  <li
+                    @click="selectGroup(groupToSelect.name)"
+                    v-for="groupToSelect in groups"
+                    :key="groupToSelect.name"
+                    class="relative select-none py-2 pl-3 pr-9 text-gray-900 cursor-pointer"
+                    :class="groupToSelect.name === group ? 'bg-gray-100' : 'hover:bg-gray-50'"
+                  >
+                    {{ groupToSelect.name }}
+                  </li>
+                </ul>
               </div>
-            </form>
-          </div>
+            </div>
+          </form>
         </div>
-      </transition>
+      </div>
 
       <section>
         <div v-if="selectedGroupDays.length">
-          <hr class="h-[2px] my-4 bg-uewyellow border-0" />
-          <p v-if="group" class="font-bold text-lg text-gray-800">Grupa {{ group }}</p>
-
-          <div class="flex flex-row overflow-x-scroll gap-2 my-2" ref="scrollContainer">
+          <div class="flex flex-row overflow-x-scroll gap-2 mt-6 mb-2" ref="scrollContainer">
             <button
               @click="selectDay(day)"
               class="px-3 py-1.5 mb-2 text-sm border rounded-lg shadow"
@@ -265,20 +190,3 @@ onClickOutside(groupList, () => {
     </div>
   </main>
 </template>
-
-<style scoped>
-.slide-horizontal-enter-active,
-.slide-horizontal-leave-active {
-  transition: all 0.2s ease;
-}
-
-.slide-horizontal-enter-from {
-  transform: translateX(100%);
-  opacity: 0;
-}
-
-.slide-horizontal-leave-to {
-  transform: translateX(100%);
-  opacity: 0;
-}
-</style>
