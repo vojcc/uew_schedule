@@ -1,13 +1,10 @@
 from backend.models.lesson import Lesson
 
 class Day:
-    def __init__(self, date: str):
+    def __init__(self, date: str, name: str):
         self.date = date
-        self.name = ''
-        self.lessons = []
-
-    def set_name(self, name: str):
         self.name = name
+        self.lessons = []
 
     def add_lesson(self, lesson: Lesson):
         self.lessons.append(lesson)

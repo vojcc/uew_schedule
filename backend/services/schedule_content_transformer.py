@@ -76,10 +76,11 @@ class ScheduleContentTransformer:
 
             group = schedule.get_group_by_index(rows_count)
 
-            day = Day(date)
+
             day_name = DayNameResolver.get_day_name(date)
             day_name = DayNameTranslator.translate(day_name, Language.POLISH)
-            day.set_name(day_name)
+
+            day = Day(date, day_name)
 
             for cell in cells[start_iteration_index:]:
                 if cell.text == '\xa0\xa0\xa0':
