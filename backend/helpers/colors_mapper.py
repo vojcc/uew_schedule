@@ -2,7 +2,7 @@ class ColorsMapper:
     colors = {
         "red": '#be185d',
         "green": '#059669',
-        "blue": '#2563eb',
+        "blue": '#1b2779',
     }
 
     @staticmethod
