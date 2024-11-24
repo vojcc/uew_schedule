@@ -15,8 +15,6 @@ const group = computed(() =>
 const semester = computed(() =>
   userSettingsStore.getSemester() ? `Semestr ${userSettingsStore.getSemester()}` : '',
 )
-
-const commitHash = import.meta.env.VITE_APP_COMMIT_HASH || 'unknown';
 </script>
 
 <template>
@@ -40,7 +38,6 @@ const commitHash = import.meta.env.VITE_APP_COMMIT_HASH || 'unknown';
         <p class="text-[11px] sm:text-xs font-medium text-nowrap text-gray-800">{{ subject }}&nbsp;</p>
         <p class="text-[11px] sm:text-xs text-gray-600 text-nowrap">{{ semester }}&nbsp;</p>
         <p class="text-[11px] sm:text-xs text-gray-600 text-nowrap">{{ group }}&nbsp;</p>
-        <p class="text-[9px] sm:text-xs text-gray-600 text-nowrap">{{ commitHash }}&nbsp;</p>
       </div>
     </div>
   </nav>
