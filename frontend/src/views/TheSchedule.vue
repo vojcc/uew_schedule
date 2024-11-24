@@ -4,12 +4,12 @@ import { useUserSettingsStore } from '@/stores/UserSettingsStore.js'
 import { groups } from '../../../backend/schedule.json'
 import {
   AdjustmentsHorizontalIcon,
-  CalendarDaysIcon,
   ChevronDownIcon,
   ChevronUpIcon,
-  FireIcon,
 } from '@heroicons/vue/24/outline/index.js'
 import { onClickOutside } from '@vueuse/core'
+import NoLessons from '@/components/UI/empty_states/NoLessons.vue'
+import SetSettings from '@/components/UI/empty_states/SetSettings.vue'
 
 const subject = ref('')
 const group = ref('')
@@ -76,18 +76,18 @@ function refreshSelectedGroupDays() {
   //If user selected day, find in selectedGroupDays day with the closest date, if not find the closest day to today's date
   let date = selectedDay.value ? new Date(selectedDay.value.date) : new Date()
 
-const closest = selectedGroupDays.value
-  .map((entry) => ({
-    ...entry,
-    parsedDate: new Date(entry.date),
-  }))
-  .filter((entry) => {
-    const entryDateWithoutTime = new Date(entry.parsedDate).setHours(0, 0, 0, 0)
-    const currentDateWithoutTime = new Date(date).setHours(0, 0, 0, 0)
+  const closest = selectedGroupDays.value
+    .map((entry) => ({
+      ...entry,
+      parsedDate: new Date(entry.date),
+    }))
+    .filter((entry) => {
+      const entryDateWithoutTime = new Date(entry.parsedDate).setHours(0, 0, 0, 0)
+      const currentDateWithoutTime = new Date(date).setHours(0, 0, 0, 0)
 
-    return entryDateWithoutTime >= currentDateWithoutTime;
-  })
-  .sort((a, b) => a.parsedDate - b.parsedDate);
+      return entryDateWithoutTime >= currentDateWithoutTime
+    })
+    .sort((a, b) => a.parsedDate - b.parsedDate)
 
   selectedDay.value = closest.length > 0 ? closest[0] : null
 }
@@ -256,18 +256,12 @@ onClickOutside(groupList, () => {
               </div>
             </div>
           </div>
-          <div class="mt-12 flex flex-col gap-2 justify-center items-center p-6" v-else>
-            <FireIcon class="size-16" />
-            <p class="text-center text-sm font-bold text-gray-800">Brak zajęć tego dnia</p>
+          <div class="mt-12" v-else>
+            <NoLessons />
           </div>
         </div>
         <div class="mt-12 flex flex-col gap-2 justify-center items-center p-6" v-else>
-          <CalendarDaysIcon class="size-16" />
-          <p class="text-center text-sm font-bold text-gray-800">
-            Wybierz kierunek, grupę i semestr,
-            <br class="block sm:hidden" />
-            aby przejść do planu
-          </p>
+          <SetSettings />
         </div>
       </section>
     </div>
