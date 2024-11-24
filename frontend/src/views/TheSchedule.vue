@@ -90,7 +90,9 @@ function refreshSelectedGroupDays() {
     })
     .sort((a, b) => a.parsedDate - b.parsedDate)
 
-  selectedDay.value = closest.length > 0 ? closest[0] : null
+  selectedDay.value = closest.length > 0
+    ? closest[0]
+    : selectedGroupDays.value[selectedGroupDays.value.length - 1]
 }
 
 function setButtonRef(date, element) {
