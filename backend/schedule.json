@@ -14,7 +14,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -23,7 +23,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -32,7 +32,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -41,7 +41,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -56,7 +56,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -65,7 +65,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -74,7 +74,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -83,7 +83,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -92,7 +92,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -107,7 +107,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "JOBLOK II",
@@ -131,7 +131,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "JOBLOK II",
@@ -149,7 +149,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Big data",
@@ -158,7 +158,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -173,7 +173,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -182,7 +182,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -191,7 +191,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -200,7 +200,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -209,7 +209,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -218,7 +218,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -233,7 +233,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "JOBLOK II",
@@ -251,7 +251,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -266,7 +266,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -275,7 +275,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -284,7 +284,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -293,7 +293,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -302,7 +302,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -317,7 +317,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "JOBLOK II",
@@ -335,7 +335,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -350,7 +350,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -359,7 +359,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -368,7 +368,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -377,7 +377,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -392,7 +392,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "JOBLOK II",
@@ -410,7 +410,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -419,7 +419,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -428,7 +428,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -437,7 +437,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -452,7 +452,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -461,7 +461,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -470,7 +470,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -479,7 +479,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -503,7 +503,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -512,7 +512,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -521,7 +521,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -545,7 +545,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -560,7 +560,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -569,7 +569,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -602,7 +602,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Big data",
@@ -611,7 +611,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -620,7 +620,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -635,7 +635,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -644,7 +644,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -653,7 +653,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -677,7 +677,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -686,7 +686,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -695,7 +695,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -730,7 +730,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -739,7 +739,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -748,7 +748,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -757,7 +757,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -772,7 +772,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -781,7 +781,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -790,7 +790,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -799,7 +799,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -808,7 +808,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -832,7 +832,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -841,7 +841,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -865,7 +865,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -874,7 +874,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Big data",
@@ -883,7 +883,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -898,7 +898,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -907,7 +907,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -916,7 +916,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -925,7 +925,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -934,7 +934,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -943,7 +943,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -967,7 +967,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Big data",
@@ -976,7 +976,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -985,7 +985,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -1000,7 +1000,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -1009,7 +1009,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -1018,7 +1018,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -1027,7 +1027,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -1036,7 +1036,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -1060,7 +1060,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -1069,7 +1069,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -1078,7 +1078,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -1093,7 +1093,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -1102,7 +1102,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -1111,7 +1111,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -1120,7 +1120,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -1144,7 +1144,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -1153,7 +1153,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -1162,7 +1162,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -1177,7 +1177,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -1186,7 +1186,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -1195,7 +1195,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -1204,7 +1204,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -1228,7 +1228,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -1237,7 +1237,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -1246,7 +1246,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -1270,7 +1270,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -1279,7 +1279,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -1288,7 +1288,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -1326,7 +1326,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -1335,7 +1335,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Big data",
@@ -1344,7 +1344,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -1359,7 +1359,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -1368,7 +1368,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -1392,7 +1392,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -1401,7 +1401,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -1410,7 +1410,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -1445,7 +1445,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -1454,7 +1454,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -1463,7 +1463,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -1472,7 +1472,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -1487,7 +1487,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -1496,7 +1496,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -1505,7 +1505,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -1514,7 +1514,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -1523,7 +1523,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -1547,7 +1547,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -1556,7 +1556,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -1565,7 +1565,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -1589,7 +1589,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -1598,7 +1598,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -1607,7 +1607,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -1622,7 +1622,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -1631,7 +1631,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -1640,7 +1640,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -1649,7 +1649,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -1658,7 +1658,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -1667,7 +1667,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -1691,7 +1691,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Big data",
@@ -1700,7 +1700,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -1715,7 +1715,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -1724,7 +1724,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -1733,7 +1733,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -1742,7 +1742,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -1751,7 +1751,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -1775,7 +1775,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -1784,7 +1784,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -1793,7 +1793,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -1808,7 +1808,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -1817,7 +1817,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -1826,7 +1826,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -1835,7 +1835,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -1859,7 +1859,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -1868,7 +1868,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Big data",
@@ -1877,7 +1877,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -1892,7 +1892,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -1901,7 +1901,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -1910,7 +1910,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -1919,7 +1919,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -1934,7 +1934,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "JOBLOK II",
@@ -1952,7 +1952,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -1961,7 +1961,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -1970,7 +1970,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -1994,7 +1994,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -2003,7 +2003,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -2041,7 +2041,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -2050,7 +2050,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -2059,7 +2059,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -2074,7 +2074,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -2083,7 +2083,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -2107,7 +2107,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -2116,7 +2116,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -2125,7 +2125,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -2160,7 +2160,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -2169,7 +2169,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -2178,7 +2178,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -2187,7 +2187,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -2202,7 +2202,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -2211,7 +2211,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -2220,7 +2220,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -2229,7 +2229,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -2238,7 +2238,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -2262,7 +2262,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Big data",
@@ -2271,7 +2271,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -2280,7 +2280,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -2304,7 +2304,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -2313,7 +2313,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -2322,7 +2322,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -2337,7 +2337,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -2346,7 +2346,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -2355,7 +2355,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -2364,7 +2364,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -2373,7 +2373,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -2382,7 +2382,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -2397,7 +2397,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "JOBLOK II",
@@ -2415,7 +2415,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -2430,7 +2430,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -2439,7 +2439,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -2448,7 +2448,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -2457,7 +2457,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -2466,7 +2466,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -2481,7 +2481,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "JOBLOK II",
@@ -2499,7 +2499,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -2508,7 +2508,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -2523,7 +2523,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -2532,7 +2532,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -2541,7 +2541,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -2550,7 +2550,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -2565,7 +2565,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "JOBLOK II",
@@ -2583,7 +2583,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -2598,7 +2598,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -2607,7 +2607,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -2616,7 +2616,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -2625,7 +2625,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -2640,7 +2640,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "JOBLOK II",
@@ -2658,7 +2658,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -2667,7 +2667,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -2676,7 +2676,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -2691,7 +2691,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "JOBLOK II",
@@ -2709,7 +2709,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -2724,7 +2724,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -2733,7 +2733,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -2742,7 +2742,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -2751,7 +2751,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -2790,7 +2790,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -2799,7 +2799,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -2808,7 +2808,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -2823,7 +2823,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "JOBLOK II",
@@ -2841,7 +2841,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -2876,7 +2876,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -2885,7 +2885,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -2894,7 +2894,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -2903,7 +2903,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -2918,7 +2918,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -2927,7 +2927,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -2936,7 +2936,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -2945,7 +2945,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -2954,7 +2954,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -2984,7 +2984,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "JOBLOK II",
@@ -3002,7 +3002,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -3011,7 +3011,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -3020,7 +3020,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -3029,7 +3029,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -3044,7 +3044,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -3053,7 +3053,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -3062,7 +3062,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -3071,7 +3071,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -3080,7 +3080,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -3089,7 +3089,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -3113,7 +3113,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -3122,7 +3122,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -3137,7 +3137,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -3146,7 +3146,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -3155,7 +3155,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -3164,7 +3164,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -3173,7 +3173,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -3197,7 +3197,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -3206,7 +3206,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -3215,7 +3215,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -3230,7 +3230,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -3239,7 +3239,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -3248,7 +3248,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -3257,7 +3257,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -3272,7 +3272,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "JOBLOK II",
@@ -3290,7 +3290,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -3299,7 +3299,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -3314,7 +3314,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -3323,7 +3323,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -3332,7 +3332,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -3341,7 +3341,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -3365,7 +3365,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -3374,7 +3374,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -3383,7 +3383,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -3398,7 +3398,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -3407,7 +3407,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "JOBLOK II",
@@ -3425,7 +3425,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Big data",
@@ -3434,7 +3434,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -3449,7 +3449,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -3458,7 +3458,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -3467,7 +3467,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -3476,7 +3476,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -3515,7 +3515,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -3524,7 +3524,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -3554,7 +3554,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -3563,7 +3563,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -3593,7 +3593,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -3602,7 +3602,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -3611,7 +3611,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -3620,7 +3620,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -3635,7 +3635,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -3644,7 +3644,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -3653,7 +3653,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -3662,7 +3662,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -3671,7 +3671,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -3710,7 +3710,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -3719,7 +3719,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -3734,7 +3734,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -3743,7 +3743,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -3752,7 +3752,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -3761,7 +3761,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -3770,7 +3770,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -3779,7 +3779,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -3794,7 +3794,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "JOBLOK II",
@@ -3812,7 +3812,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -3821,7 +3821,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -3830,7 +3830,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -3845,7 +3845,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -3854,7 +3854,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -3863,7 +3863,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -3872,7 +3872,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -3881,7 +3881,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -3905,7 +3905,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Big data",
@@ -3914,7 +3914,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -3923,7 +3923,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -3932,7 +3932,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -3947,7 +3947,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -3956,7 +3956,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -3965,7 +3965,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -3974,7 +3974,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -3998,7 +3998,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -4007,7 +4007,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -4016,7 +4016,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -4031,7 +4031,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -4040,7 +4040,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -4049,7 +4049,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -4058,7 +4058,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -4082,7 +4082,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Big data",
@@ -4091,7 +4091,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -4100,7 +4100,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -4115,7 +4115,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -4124,7 +4124,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "JOBLOK II",
@@ -4142,7 +4142,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -4151,7 +4151,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -4166,7 +4166,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -4175,7 +4175,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -4184,7 +4184,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -4193,7 +4193,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -4232,7 +4232,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -4241,7 +4241,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -4271,7 +4271,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -4280,7 +4280,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -4310,7 +4310,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -4319,7 +4319,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -4328,7 +4328,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -4337,7 +4337,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -4352,7 +4352,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -4361,7 +4361,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -4370,7 +4370,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -4379,7 +4379,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -4388,7 +4388,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -4427,7 +4427,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Big data",
@@ -4436,7 +4436,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -4445,7 +4445,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -4460,7 +4460,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -4469,7 +4469,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -4478,7 +4478,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -4487,7 +4487,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -4496,7 +4496,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -4505,7 +4505,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -4529,7 +4529,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -4538,7 +4538,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -4547,7 +4547,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -4562,7 +4562,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -4571,7 +4571,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -4580,7 +4580,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -4589,7 +4589,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -4598,7 +4598,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -4622,7 +4622,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -4631,7 +4631,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Big data",
@@ -4640,7 +4640,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -4655,7 +4655,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Big data",
@@ -4664,7 +4664,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -4673,7 +4673,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -4682,7 +4682,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -4706,7 +4706,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Inżynieria procesów biznesowych",
@@ -4715,7 +4715,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -4724,7 +4724,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -4739,7 +4739,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Rachunkowość zarządcza",
@@ -4748,7 +4748,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -4757,7 +4757,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -4766,7 +4766,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "blue"
+                            "color": "#2563eb"
                         }
                     ]
                 },
@@ -4790,7 +4790,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -4799,7 +4799,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Big data",
@@ -4808,7 +4808,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -4823,7 +4823,7 @@
                             "start_hour": "08:00",
                             "end_hour": "09:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Big data",
@@ -4832,7 +4832,7 @@
                             "start_hour": "09:45",
                             "end_hour": "11:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "JOBLOK II",
@@ -4850,7 +4850,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Strategie biznesu",
@@ -4859,7 +4859,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         }
                     ]
                 },
@@ -4874,7 +4874,7 @@
                             "start_hour": "11:30",
                             "end_hour": "13:00",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -4883,7 +4883,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -4892,7 +4892,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Metodyki zarządzania projektami",
@@ -4901,7 +4901,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -4940,7 +4940,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Systemy informacyjno-decyzyjne w biznesie",
@@ -4949,7 +4949,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "green"
+                            "color": "#059669"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -4958,7 +4958,7 @@
                             "start_hour": "16:45",
                             "end_hour": "18:15",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },
@@ -4988,7 +4988,7 @@
                             "start_hour": "13:15",
                             "end_hour": "14:45",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         },
                         {
                             "name": "Zarządzanie informacją w organizacji",
@@ -4997,7 +4997,7 @@
                             "start_hour": "15:00",
                             "end_hour": "16:30",
                             "duration": 90,
-                            "color": "red"
+                            "color": "#be185d"
                         }
                     ]
                 },

@@ -1,4 +1,5 @@
 from backend.enums.language import Language
+from backend.helpers.colors_mapper import ColorsMapper
 from backend.helpers.day_name_resolver import DayNameResolver
 from backend.helpers.day_name_translator import DayNameTranslator
 from backend.models.day import Day
@@ -101,6 +102,7 @@ class ScheduleContentTransformer:
                     if hasattr(cell.next, 'next'):
                         if hasattr(cell.next.next, 'attrs'):
                             color = cell.next.next.attrs['color']
+                            color = ColorsMapper.map(color)
 
                     lesson = Lesson(
                         name = lesson_name,
